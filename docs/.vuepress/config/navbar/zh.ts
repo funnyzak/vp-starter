@@ -3,10 +3,10 @@ import { version } from '../meta.js'
 
 export const navbarZh: NavbarConfig = [
   {
-    text: '昆仑文保',
+    text: '支持中心',
     children: [
-      { text: '官方网站', link: 'https://www.kunlunwenbao.com/', target: '_blank' },
-      { text: '联系我们', link: 'mailto:support@kunlunwenbao.com', target: '_blank' }
+      { text: '官方网站', link: 'https://www.yycc.me', target: '_blank' },
+      { text: '联系我', link: 'mailto:y@yycc.me', target: '_blank' }
     ]
   },
   {

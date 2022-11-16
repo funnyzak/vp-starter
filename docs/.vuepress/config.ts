@@ -1,15 +1,31 @@
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { path } from '@vuepress/utils'
 import { defaultTheme, defineUserConfig } from 'vuepress'
-import { head, navbarEn, navbarZh, siderbar } from './config/index.js'
+import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './config/index.js'
+
+// 轻量搜索插件
+// import { searchPlugin } from '@vuepress/plugin-search'
+
+const isProd = process.env.NODE_ENV === 'production'
 
 const config = defineUserConfig({
   title: 'Vuepress Starter',
   description: 'Vuepress Starter',
+
+  // extra tags in `<head>`
   head,
+
+  // set site base to default value
   base: '/',
+
   port: 3000,
   open: false,
   public: `docs/.vuepress/public`,
+
+  // site-level locales config
   locales: {
     '/': {
       lang: 'en-US',
@@ -24,10 +40,15 @@ const config = defineUserConfig({
   },
   pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
   plugins: [
+    // 去掉注释，开启搜索插件
+    // searchPlugin({
+    //   // 配置项
+    // }),
+    // 使用此插件需要配置爬虫，创建数据索引，具体看这里：https://v2.vuepress.vuejs.org/zh/reference/plugin/docsearch.html
     docsearchPlugin({
-      appId: '33',
-      apiKey: '333',
-      indexName: 'vuepress-starter',
+      appId: '6KVW073BWJ',
+      apiKey: 'e7c9d8d3e543cb3373c831d0d4ac372e',
+      indexName: 'vuepress',
       locales: {
         '/': {},
         '/zh/': {
@@ -72,17 +93,20 @@ const config = defineUserConfig({
           }
         }
       }
-    })
+    }),
+    googleAnalyticsPlugin({
+      // we have multiple deployments, which would use different id
+      id: process.env.DOCS_GA_ID ?? ''
+    }),
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components')
+    }),
+    // only enable shiki plugin in production mode
+    isProd ? shikiPlugin({ theme: 'dark-plus' }) : []
   ],
 
-  // externalLinkIcon: true,
-  // git: false,
-  // backToTop: true,
-  // nprogress: true,
-  // editLinks: true,
-
   theme: defaultTheme({
-    logo: 'logo.png',
+    logo: '/images/logo.png',
     repo: 'funnyzak/vuepress-starter',
     docsDir: 'docs',
 
@@ -93,7 +117,9 @@ const config = defineUserConfig({
         home: '/',
         sidebarDepth: 3,
         backToHome: 'Back to home',
-        navbar: navbarEn
+        navbar: navbarEn,
+        sidebar: sidebarEn,
+        editLinkText: 'Edit this page on GitHub'
       },
       '/zh/': {
         logoDark: null,
@@ -102,7 +128,7 @@ const config = defineUserConfig({
         home: '/',
 
         sidebarDepth: 3,
-        editLink: false,
+        editLink: true,
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
         selectLanguageAriaLabel: '选择语言',
@@ -122,10 +148,26 @@ const config = defineUserConfig({
         toggleSidebar: '切换侧边栏',
         navbar: navbarZh,
         lastUpdated: true,
-        sidebar: siderbar
+        sidebar: sidebarZh
       }
+    },
+
+    themePlugins: {
+      // only enable git plugin in production mode
+      git: isProd,
+      // use shiki plugin in production mode instead
+      prismjs: !isProd,
+      externalLinkIcon: true,
+      nprogress: true,
+      mediumZoom: true,
+      activeHeaderLinks: true
     }
-  })
+  }),
+
+  // configure markdown
+  markdown: {
+    importCode: {}
+  }
 })
 
 export default config
