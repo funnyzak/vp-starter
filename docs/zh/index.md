@@ -32,7 +32,7 @@ footer: MIT Licensed | Copyright © 2022 Funnyzak
 git clone git@github.com:funnyzak/vuepress-starter.git && cd vuepress-starter
 
 # 安装依赖
-yarn 
+yarn
 
 # 开始写作
 yarn docs:dev

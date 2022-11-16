@@ -25,7 +25,6 @@ features:
 footer: MIT Licensed | Copyright © 2022 Funnyzak
 ---
 
-
 ### As Easy as 1, 2, 3
 
 ```bash
@@ -33,7 +32,7 @@ footer: MIT Licensed | Copyright © 2022 Funnyzak
 git clone git@github.com:funnyzak/vuepress-starter.git && cd vuepress-starter
 
 # install dependency
-yarn 
+yarn
 
 # start writing
 yarn docs:dev
