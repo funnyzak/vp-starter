@@ -37,4 +37,3 @@ jobs:
       - name: Lint and Test
         run: |
           yarn eslint:check
-          yarn test
