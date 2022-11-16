@@ -753,7 +753,7 @@
     "@vue/compiler-dom" "3.2.45"
     "@vue/shared" "3.2.45"
 
-"@vue/devtools-api@^6.1.4", "@vue/devtools-api@^6.4.5":
+"@vue/devtools-api@^6.4.5":
   version "6.4.5"
   resolved "https://registry.npmmirror.com/@vue/devtools-api/-/devtools-api-6.4.5.tgz#d54e844c1adbb1e677c81c665ecef1a2b4bb8380"
   integrity sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==
@@ -801,7 +801,7 @@
     "@vue/compiler-ssr" "3.2.45"
     "@vue/shared" "3.2.45"
 
-"@vue/shared@3.2.45", "@vue/shared@^3.0.3", "@vue/shared@^3.2.33", "@vue/shared@^3.2.41":
+"@vue/shared@3.2.45", "@vue/shared@^3.0.3", "@vue/shared@^3.2.41":
   version "3.2.45"
   resolved "https://registry.npmmirror.com/@vue/shared/-/shared-3.2.45.tgz#a3fffa7489eafff38d984e23d0236e230c818bc2"
   integrity sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==
@@ -837,16 +837,6 @@
     chokidar "^3.5.3"
     envinfo "^7.8.1"
     esbuild "^0.15.12"
-
-"@vuepress/client@2.0.0-beta.45":
-  version "2.0.0-beta.45"
-  resolved "https://registry.npmmirror.com/@vuepress/client/-/client-2.0.0-beta.45.tgz#49a1b818fb730dc07ebb0dacf1e2def608107961"
-  integrity sha512-4oK77LI5FpHvF6bZxREfLdWfOgAZroDkyy46moRopasg72UeXjfvOTb/6tIKaNQP6e/Kn2ubRxVeLe7DR5d9Ng==
-  dependencies:
-    "@vue/devtools-api" "^6.1.4"
-    "@vuepress/shared" "2.0.0-beta.45"
-    vue "^3.2.33"
-    vue-router "^4.0.15"
 
 "@vuepress/client@2.0.0-beta.53":
   version "2.0.0-beta.53"
@@ -1028,13 +1018,6 @@
   integrity sha512-W0tLKLV9R3GDzT2LjXbyOpM8tgPNbhmzHJA4JlrifRsxzmugxlxbn24lL6G0mWd21ZJ2wj5tgRA8k7NCJ9jGVQ==
   dependencies:
     "@vue/shared" "^3.0.3"
-
-"@vuepress/shared@2.0.0-beta.45":
-  version "2.0.0-beta.45"
-  resolved "https://registry.npmmirror.com/@vuepress/shared/-/shared-2.0.0-beta.45.tgz#6d099af2a9a1125a399f32a249ef7a67e00d9025"
-  integrity sha512-lYj+rgMtQ6liWjvzVy7jGux/Eix5ExbUy8b2uFAAsSE4v5wrdGeVgcFunVb40VPK3Mu0uyW4AvhCsPteLRUp1A==
-  dependencies:
-    "@vue/shared" "^3.2.33"
 
 "@vuepress/shared@2.0.0-beta.53":
   version "2.0.0-beta.53"
@@ -4320,14 +4303,14 @@ vue-demi@*:
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"
   integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
 
-vue-router@^4.0.15, vue-router@^4.1.6:
+vue-router@^4.1.6:
   version "4.1.6"
   resolved "https://registry.npmmirror.com/vue-router/-/vue-router-4.1.6.tgz#b70303737e12b4814578d21d68d21618469375a1"
   integrity sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-vue@3.2.45, vue@^3.2.33, vue@^3.2.41:
+vue@^3.2.41:
   version "3.2.45"
   resolved "https://registry.npmmirror.com/vue/-/vue-3.2.45.tgz#94a116784447eb7dbd892167784619fef379b3c8"
   integrity sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA==

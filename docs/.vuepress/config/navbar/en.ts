@@ -3,10 +3,10 @@ import { version } from '../meta.js'
 
 export const navbarEn: NavbarConfig = [
   {
-    text: 'Kunlunwenbao',
+    text: 'Support',
     children: [
-      { text: 'Offical Site', link: 'mailto:support@kunlunwenbao.com', target: '_blank' },
-      { text: 'Contact Us', link: 'mailto:support@kunlunwenbao.com', target: '_blank' }
+      { text: 'Site', link: 'https://www.yycc.me', target: '_blank' },
+      { text: 'Contact', link: 'mailto:y@yycc.me', target: '_blank' }
     ]
   },
   {

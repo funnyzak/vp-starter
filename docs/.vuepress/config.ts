@@ -2,14 +2,23 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { defaultTheme, defineUserConfig } from 'vuepress'
 import { head, navbarEn, navbarZh, siderbar } from './config/index.js'
 
+const isProd = process.env.NODE_ENV === 'production'
+
 const config = defineUserConfig({
   title: 'Vuepress Starter',
   description: 'Vuepress Starter',
+
+  // extra tags in `<head>`
   head,
+
+  // set site base to default value
   base: '/',
+
   port: 3000,
   open: false,
   public: `docs/.vuepress/public`,
+
+  // site-level locales config
   locales: {
     '/': {
       lang: 'en-US',
@@ -75,12 +84,6 @@ const config = defineUserConfig({
     })
   ],
 
-  // externalLinkIcon: true,
-  // git: false,
-  // backToTop: true,
-  // nprogress: true,
-  // editLinks: true,
-
   theme: defaultTheme({
     logo: 'logo.png',
     repo: 'funnyzak/vuepress-starter',
@@ -124,6 +127,13 @@ const config = defineUserConfig({
         lastUpdated: true,
         sidebar: siderbar
       }
+    },
+
+    themePlugins: {
+      // only enable git plugin in production mode
+      git: isProd,
+      // use shiki plugin in production mode instead
+      prismjs: !isProd
     }
   })
 })
