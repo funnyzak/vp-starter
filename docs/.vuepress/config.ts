@@ -1,4 +1,5 @@
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { viteBundler } from '@vuepress/bundler-vite'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
@@ -38,6 +39,19 @@ const config = defineUserConfig({
   cache: path.join(__dirname, 'cache'),
 
   debug: !isProd,
+
+  bundler: viteBundler({
+    viteOptions: {
+      resolve: {
+        alias: {
+          '@component': path.resolve(__dirname, 'components'),
+          '@public': path.resolve(__dirname, 'public'),
+          '@configs': path.resolve(__dirname, 'configs')
+        }
+      }
+    },
+    vuePluginOptions: {}
+  }),
 
   // site-level locales config
   locales: {
