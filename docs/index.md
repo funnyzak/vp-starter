@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: /images/logo-masked-256x256.png
+heroImage: /images/icons/logo-mask.png
 actions:
   - text: Get Started
     link: /guide/getting-started.html

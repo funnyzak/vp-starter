@@ -1,6 +1,7 @@
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { pwaPlugin } from '@vuepress/plugin-pwa'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { path } from '@vuepress/utils'
 import { defaultTheme, defineUserConfig } from 'vuepress'
@@ -11,6 +12,7 @@ import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './config/index.j
 
 const isProd = process.env.NODE_ENV === 'production'
 
+console.log('isProd', isProd)
 const config = defineUserConfig({
   title: 'Vuepress Starter',
   description: 'Vuepress Starter',
@@ -52,6 +54,9 @@ const config = defineUserConfig({
   },
   pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
   plugins: [
+    pwaPlugin({
+      skipWaiting: true
+    }),
     // 去掉注释，开启搜索插件
     // searchPlugin({
     //   // 配置项
@@ -118,7 +123,7 @@ const config = defineUserConfig({
   ],
 
   theme: defaultTheme({
-    logo: '/images/logo.png',
+    logo: '/images/icons/logo-mask.png',
     repo: 'funnyzak/vuepress-starter',
     docsDir: 'docs',
 

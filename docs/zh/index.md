@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: /images/logo-masked-256x256.png
+heroImage: /images/icons/logo-mask.png
 actions:
   - text: 快速上手
     link: /zh/guide/getting-started.html

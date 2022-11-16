@@ -28,10 +28,26 @@ export const head: HeadConfig[] = [
     'link',
     {
       rel: 'mask-icon',
-      href: '/images/icons/safari-pinned-tab.svg',
+      href: '/images/icons/logo-mask.svg',
       color: '#3eaf7c'
     }
   ],
   ['meta', { name: 'msapplication-TileColor', content: '#3eaf7c' }],
-  ['meta', { name: 'theme-color', content: '#3eaf7c' }]
+  ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+  [
+    'meta',
+    {
+      'data-draft-node': 'block',
+      'data-draft-type': 'table',
+      'data-size': 'normal',
+      'data-row-style': 'normal'
+    }
+  ],
+  [
+    'meta',
+    {
+      name: 'referrer',
+      content: 'no-referrer'
+    }
+  ]
 ]

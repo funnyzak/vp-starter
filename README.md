@@ -28,6 +28,7 @@
 - 中英文切换配置支持。
 - docsearch 配置支持。
 - google analytics 配置支持。
+- Pwa 配置支持。
 
 ## Preview
 
