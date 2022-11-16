@@ -1,10 +1,11 @@
 # Vuepress Starter
 
-[![action][ci-image]][ci-url] [![Release Date][rle-image]][rle-url] [![GitHub last commit][last-commit-image]][repository-url] [![tag][tag-image]][rle-url] [![license][license-image]][repository-url]
+[![Release Date][rle-image]][rle-url] [![GitHub last commit][last-commit-image]][repository-url] [![tag][tag-image]][rle-url] [![license][license-image]][repository-url]
 
 基于 [vuepress 2.0](https://v2.vuepress.vuejs.org/) 构建文档站点的脚手架。[在线预览](https://vuepress.yycc.dev/)。
 
- <!-- [![Sourcegraph][sg-image]][sg-url]  -->
+<!-- [![action][ci-image]][ci-url]  -->
+<!-- [![Sourcegraph][sg-image]][sg-url]  -->
 <!-- [![GitHub repo size][repo-size-image]][repository-url]
  -->
 
@@ -27,6 +28,10 @@
 - 中英文切换配置支持。
 - docsearch 配置支持。
 - google analytics 配置支持。
+
+## Preview
+
+[![preview](https://raw.githubusercontent.com/funnyzak/vuepress-starter/main/.github/docs/images/preview.png)](https://vuepress.yycc.dev/)
 
 ## Quick Start
 
