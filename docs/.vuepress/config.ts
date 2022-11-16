@@ -21,9 +21,21 @@ const config = defineUserConfig({
   // set site base to default value
   base: '/',
 
+  // set site lang to default value
+  lang: 'zh-CN',
+
   port: 3000,
   open: false,
-  public: `docs/.vuepress/public`,
+
+  public: path.join(__dirname, 'public'),
+
+  // Specify the temporary directory for client.
+  temp: path.join(__dirname, 'temp'),
+
+  // Specify the directory for storing cache files.
+  cache: path.join(__dirname, 'cache'),
+
+  debug: !isProd,
 
   // site-level locales config
   locales: {

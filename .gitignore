@@ -35,5 +35,7 @@ coverage
 /.huskynode_modules
 .temp
 .cache
+temp
+cache
 
 package-lock.json
