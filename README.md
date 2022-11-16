@@ -20,11 +20,24 @@
 [sg-image]: https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=flat-square
 [tag-image]: https://img.shields.io/github/tag/funnyzak/vuepress-starter.svg
 
+## Feature
+
+- TypeScript 支持。
+- 中英文切换配置支持。
+- docsearch 配置支持。
+- google analytics 配置支持。
+
 ## Usage
 
 ```bash
 # 安装依赖
 yarn
+
+# 启动开发环境
+yarn docs:dev
+
+# 构建
+yarn docs:build
 
 # EsLint 检查
 yarn eslint:check

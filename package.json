@@ -52,8 +52,11 @@
   "dependencies": {
     "@algolia/client-search": "4.14.2",
     "@vuepress/plugin-docsearch": "2.0.0-beta.53",
-    "@vuepress/plugin-google-analytics": "1.9.7",
+    "@vuepress/plugin-google-analytics": "2.0.0-beta.53",
     "@vuepress/plugin-prismjs": "2.0.0-beta.53",
+    "@vuepress/plugin-register-components": "2.0.0-beta.53",
+    "@vuepress/plugin-search": "2.0.0-beta.53",
+    "@vuepress/plugin-shiki": "2.0.0-beta.53",
     "glob": "8.0.3",
     "lodash": "4.17.21"
   },

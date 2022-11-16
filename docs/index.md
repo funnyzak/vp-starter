@@ -22,5 +22,22 @@ features:
     details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
   - title: Bundlers
     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2022 Funnyzak
 ---
+
+
+### As Easy as 1, 2, 3
+
+```bash
+# clone the project
+git clone git@github.com:funnyzak/vuepress-starter.git && cd vuepress-starter
+
+# install dependency
+yarn 
+
+# start writing
+yarn docs:dev
+
+# build to static files
+yarn docs:build
+```
