@@ -6,7 +6,7 @@ import { pwaPlugin } from '@vuepress/plugin-pwa'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { path } from '@vuepress/utils'
 import { defaultTheme, defineUserConfig } from 'vuepress'
-import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './config/index.js'
+import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
 
 // 轻量搜索插件
 // import { searchPlugin } from '@vuepress/plugin-search'
