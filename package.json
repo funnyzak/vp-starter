@@ -51,6 +51,8 @@
   },
   "dependencies": {
     "@algolia/client-search": "4.14.2",
+    "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/core": "2.0.0-beta.53",
     "@vuepress/plugin-docsearch": "2.0.0-beta.53",
     "@vuepress/plugin-google-analytics": "2.0.0-beta.53",
     "@vuepress/plugin-prismjs": "2.0.0-beta.53",
