@@ -5,7 +5,7 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { path } from '@vuepress/utils'
-import { defaultTheme, defineUserConfig } from 'vuepress'
+import { App, defaultTheme, defineUserConfig } from 'vuepress'
 import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
 
 // 轻量搜索插件
@@ -39,6 +39,16 @@ const config = defineUserConfig({
   // cache: path.join(__dirname, 'cache'),
 
   debug: !isProd,
+
+  // Node App Hooks
+  onInitialized: (app: App) => {
+    console.log('onInitialized')
+  },
+
+  onWatched: (app: App) => {
+    console.log('onWatched')
+  },
+  // Node App Hooks End
 
   bundler: viteBundler({
     viteOptions: {

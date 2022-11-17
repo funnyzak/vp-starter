@@ -1,2 +1,10 @@
 {
+  "markdownlint.config": {
+    "default": true,
+    "MD007": {
+      "indent": 4
+    },
+    "MD025": false,
+    "no-hard-tabs": false
+  }
 }
