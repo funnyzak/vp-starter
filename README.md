@@ -47,6 +47,9 @@ yarn docs:dev
 # 构建
 yarn docs:build
 
+# 根据 custom/*.json 配置构建所有
+yarn docs:build:all
+
 # EsLint 检查
 yarn eslint:check
 
@@ -61,6 +64,12 @@ yarn style:fix
 
 # lint staged hook 检查
 yarn lint:staged
+
+# lint 
+yarn lint:check
+
+# lint 样式、js 并修复
+yarn lint:fix
 
 # 自定义开发、打包，以下读取 docs/.vuepress/custom/default.json 自定义配置进行打包
 npx cross-env CONFIG_NAME=default yarn docs:dev
@@ -81,6 +90,7 @@ npx cross-env CONFIG_NAME=default yarn docs:build
     │   ├── .vuepress                            // vuepress 配置目录
     │   │   ├── client.ts                        // 客户端配置
     │   │   ├── components                       // vuepress 组件目录
+    │   │   ├── custom                           // 自定义构建配置目录
     │   │   ├── config                           // vuepress 页面配置
     │   │   ├── config.ts                        // vuepress 配置文件
     │   │   ├── dist                             // vuepress 构建目录

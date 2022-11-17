@@ -15,6 +15,7 @@
   "scripts": {
     "docs:dev:default": "cross-env CONFIG_NAME=default yarn docs:dev",
     "docs:build:default": "cross-env CONFIG_NAME=default yarn docs:build",
+    "docs:build:all": "for f in $(ls ./docs/.vuepress/custom | grep \"json\"); do (cross-env CONFIG_NAME=$(basename -s .json $f) vuepress build docs -d docs/.vuepress/dist/$(basename -s .json $f)); done",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "npm:check": "npx npm-check-updates",
