@@ -50,6 +50,9 @@ yarn docs:build
 # 根据 custom/*.json 配置构建所有
 yarn docs:build:all
 
+# 根据 custom/*.json 配置构建所有并压缩为zip
+yarn docs:build2zip:all
+
 # EsLint 检查
 yarn eslint:check
 
