@@ -33,10 +33,10 @@ const config = defineUserConfig({
   public: path.join(__dirname, 'public'),
 
   // Specify the temporary directory for client.
-  temp: path.join(__dirname, 'temp'),
+  // temp: path.join(__dirname, 'temp'),
 
   // Specify the directory for storing cache files.
-  cache: path.join(__dirname, 'cache'),
+  // cache: path.join(__dirname, 'cache'),
 
   debug: !isProd,
 
