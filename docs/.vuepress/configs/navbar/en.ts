@@ -3,9 +3,13 @@ import { version } from '../meta.js'
 
 export const navbarEn: NavbarConfig = [
   {
-    text: 'Support',
+    text: 'Home',
+    link: '/'
+  },
+  {
+    text: 'About',
     children: [
-      { text: 'Site', link: 'https://www.yycc.me', target: '_blank' },
+      { text: 'Blog', link: 'https://yycc.me', target: '_blank' },
       { text: 'Contact', link: 'mailto:y@yycc.me', target: '_blank' }
     ]
   },
@@ -17,5 +21,10 @@ export const navbarEn: NavbarConfig = [
         link: 'https://github.com/funnyzak/vuepress-starter/blob/main/CHANGELOG.md'
       }
     ]
+  },
+  {
+    text: 'Donate',
+    link: 'https://github.com/funnyzak/funnyzak/blob/main/pro/Coffee.md',
+    target: '_blank'
   }
 ]

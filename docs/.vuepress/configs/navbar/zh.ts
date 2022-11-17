@@ -3,9 +3,13 @@ import { version } from '../meta.js'
 
 export const navbarZh: NavbarConfig = [
   {
-    text: '支持中心',
+    text: '首页',
+    link: '/'
+  },
+  {
+    text: '关于',
     children: [
-      { text: '官方网站', link: 'https://www.yycc.me', target: '_blank' },
+      { text: '博客', link: 'https://yycc.me', target: '_blank' },
       { text: '联系我', link: 'mailto:y@yycc.me', target: '_blank' }
     ]
   },
@@ -17,5 +21,10 @@ export const navbarZh: NavbarConfig = [
         link: 'https://github.com/funnyzak/vuepress-starter/blob/main/CHANGELOG.md'
       }
     ]
+  },
+  {
+    text: '赞助',
+    link: 'https://github.com/funnyzak/funnyzak/blob/main/pro/Coffee.md',
+    target: '_blank'
   }
 ]
