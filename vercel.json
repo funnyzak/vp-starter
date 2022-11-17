@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npx vuepress build docs",
+  "installCommand": "yarn",
+  "outputDirectory": "docs/.vuepress/dist/"
+}
