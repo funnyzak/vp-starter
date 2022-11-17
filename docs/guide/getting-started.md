@@ -7,8 +7,8 @@ head:
     - name: hello
       content: world
   - [meta, { name: funnyzak, content: vuepress }]
-routeMeta:
-  - { name: funnyzak, content: vuepress }
+routeMeta: { name: funnyzak, content: vuepress }
+
 ---
 
 # Getting started
