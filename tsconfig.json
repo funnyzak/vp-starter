@@ -10,33 +10,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
+    "lib": ["ESNext", "DOM"],
     "baseUrl": ".",
     "allowJs": true,
-    "types": [
-      "@vuepress/client/types"
-    ],
-    "typeRoots": [
-      "./node_modules/@types/"
-    ],
+    "types": ["@vuepress/client/types"],
+    "typeRoots": ["./node_modules/@types/"],
     "skipLibCheck": true /* Skip type checking of declaration files. */
   },
-  "include": [
-    "**/.vuepress/**/*.ts",
-    "**/.vuepress/**/*.d.ts",
-    "**/.vuepress/**/*.vue",
-    "**/.vuepress/**/*.tsx"
-  ],
-  "exclude": [
-    "docs/.vuepress/dist",
-    "node_modules",
-    ".temp",
-    "lib",
-    "dist"
-  ],
+  "include": ["**/.vuepress/**/*.ts", "**/.vuepress/**/*.d.ts", "**/.vuepress/**/*.vue", "**/.vuepress/**/*.tsx"],
+  "exclude": ["docs/.vuepress/dist", "node_modules", ".temp", "lib", "dist"],
   "references": [
     {
       "path": "./tsconfig.node.json"

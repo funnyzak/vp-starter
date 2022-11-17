@@ -13,6 +13,8 @@
     "document"
   ],
   "scripts": {
+    "docs:dev:default": "cross-env CONFIG_NAME=default yarn docs:dev",
+    "docs:build:default": "cross-env CONFIG_NAME=default yarn docs:build",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "npm:check": "npx npm-check-updates",

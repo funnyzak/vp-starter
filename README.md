@@ -29,6 +29,7 @@
 - docsearch 配置支持。
 - google analytics 配置支持。
 - Pwa 配置支持。
+- 支持自定义配置构建。
 
 ## Preview
 
@@ -60,6 +61,10 @@ yarn style:fix
 
 # lint staged hook 检查
 yarn lint:staged
+
+# 自定义开发、打包，以下读取 docs/.vuepress/custom/default.json 自定义配置进行打包
+npx cross-env CONFIG_NAME=default yarn docs:dev
+npx cross-env CONFIG_NAME=default yarn docs:build
 ```
 
 ## Structure
@@ -97,6 +102,30 @@ yarn lint:staged
     ├── tsconfig.json                           // ts 配置文件
     ├── tsconfig.node.json                      // node 环境下的 ts 配置
     └── yarn.lock                               // yarn 锁文件
+
+## FAQ
+
+### 如何进行自定义配置进行开发或构建？
+
+1. 在 docs/.vuepress/custom 目录下复制 `default.json`， 并创建自定义 JSON 配置文件，例如 `app_custom.json`。
+2. 在文件内 `vuepress` 属性增加自定义配置，配置变量可参考 [vuepress 配置](https://vuepress.vuejs.org/zh/config/)。
+3. 使用以下命令进行开发或构建，其中 `CONFIG_NAME` 为自定义配置文件名，不包含 `.json` 后缀。
+4. 进行开发或构建：
+   ```bash
+   # 启动开发
+   npx cross-env CONFIG_NAME=app_custom yarn docs:dev
+   # 构建
+   npx cross-env CONFIG_NAME=app_custom yarn docs:build
+   ```
+5. 也可以在 `package.json` 中配置 `scripts`，例如：
+   ```json
+   {
+     "scripts": {
+       "docs:dev:app_custom": "npx cross-env CONFIG_NAME=app_custom yarn docs:dev",
+       "docs:build:app_custom": "npx cross-env CONFIG_NAME=app_custom yarn docs:build"
+     }
+   }
+   ```
 
 ## Reference
 
