@@ -47,10 +47,10 @@ yarn docs:dev
 # 构建
 yarn docs:build
 
-# 根据 custom/*.json 配置构建所有
+# 根据 custom/*.json 配置构建所有（注意每个自定义配置的的输出目录需要单独定义，否则多个构建输出会覆盖）
 yarn docs:build:all
 
-# 根据 custom/*.json 配置构建所有并压缩为zip
+# 根据 custom/*.json 配置构建所有并压缩为zip（注意每个自定义配置的的输出目录需要单独定义，否则多个构建输出会覆盖）
 yarn docs:build2zip:all
 
 # EsLint 检查

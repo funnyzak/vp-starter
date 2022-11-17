@@ -16,7 +16,7 @@
     "docs:dev:default": "cross-env CONFIG_NAME=default yarn docs:dev",
     "docs:build:default": "cross-env CONFIG_NAME=default yarn docs:build",
     "docs:build:all": "for f in $(ls ./docs/.vuepress/custom | grep \"json\"); do (cross-env CONFIG_NAME=$(basename -s .json $f) vuepress build docs -d docs/.vuepress/dist/$(basename -s .json $f)); done",
-    "docs:zip:all": "for dir in $(ls -d ./docs/.vuepress/dist/*/); do (zip -q -r ./docs/.vuepress/dist/$(basename $dir).zip ${dir}* && echo -e \"Compressed to ./docs/.vuepress/dist/$(basename $dir).zip.\"); done ",
+    "docs:zip:all": "cd docs/.vuepress/dist; for dir in $(ls -d ./*/); do (zip -q -r ./$(basename $dir).zip ${dir}* && echo \"Compressed to ./$(basename $dir).zip.\"); done ",
     "docs:build2zip:all": "yarn docs:build:all && yarn docs:zip:all",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
