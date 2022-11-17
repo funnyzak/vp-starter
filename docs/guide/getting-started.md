@@ -1,5 +1,5 @@
 ---
-title: Getting Started With VuePress Starter
+title: Getting Started
 date: 2022-11-16
 description: VuePress Starter is a VuePress starter template with i18n support, built-in PWA, and more.
 head:

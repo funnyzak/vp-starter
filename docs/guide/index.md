@@ -1,4 +1,4 @@
-# Demo
+# Home
 
 This is demo content.
 
