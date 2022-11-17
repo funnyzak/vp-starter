@@ -1,4 +1,5 @@
 import { fs, path } from '@vuepress/utils'
+import _ from 'lodash'
 import { createRequire } from 'node:module'
 import { UserConfig } from 'vuepress'
 import { logInfo } from '../utils/logger'
@@ -7,8 +8,9 @@ const require = createRequire(import.meta.url)
 export interface CustomConfig {
   configName: string
   configFilePath: string
-  config: any
-  userConfig: UserConfig
+  config: {
+    app: UserConfig
+  }
 }
 
 export const getCustomConfig = (config_name?: string): CustomConfig | undefined => {
@@ -19,12 +21,10 @@ export const getCustomConfig = (config_name?: string): CustomConfig | undefined 
       throw new Error(`custom config file ${configPath} not found`)
     }
     const customConfig = fs.readJsonSync(require.resolve(configPath))
-    const appConfig = customConfig.vuepress || {}
     return {
       configName: configName,
       configFilePath: configPath,
-      config: customConfig,
-      userConfig: appConfig
+      config: customConfig
     }
   } catch (error: any) {
     logInfo(error.message)
@@ -36,4 +36,4 @@ const custom = process.env.CONFIG_NAME ? getCustomConfig(process.env.CONFIG_NAME
 
 export const defaultCustomConfig = { ...getCustomConfig('default')! }
 
-export default custom
+export default custom ? _.merge<CustomConfig, CustomConfig>(defaultCustomConfig, custom) : defaultCustomConfig

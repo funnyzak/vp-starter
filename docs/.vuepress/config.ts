@@ -52,7 +52,7 @@ const config = defineUserConfig(
       },
 
       onWatched: (app: App, watchers: any) => {
-        logInfo('onWatched')
+        // logInfo('onWatched')
       },
 
       // Node App Hooks End
@@ -216,7 +216,7 @@ const config = defineUserConfig(
         importCode: {}
       }
     },
-    CustomConfig ? CustomConfig.userConfig : {}
+    CustomConfig ? CustomConfig.config.app : {}
   )
 )
 

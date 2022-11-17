@@ -108,7 +108,7 @@ npx cross-env CONFIG_NAME=default yarn docs:build
 ### 如何进行自定义配置进行开发或构建？
 
 1. 在 docs/.vuepress/custom 目录下复制 `default.json`， 并创建自定义 JSON 配置文件，例如 `app_custom.json`。
-2. 在文件内 `vuepress` 属性增加自定义配置，配置变量可参考 [vuepress 配置](https://vuepress.vuejs.org/zh/config/)。
+2. 在文件内 `app` 属性增加自定义配置，配置变量可参考 [vuepress 配置](https://vuepress.vuejs.org/zh/config/)。
 3. 使用以下命令进行开发或构建，其中 `CONFIG_NAME` 为自定义配置文件名，不包含 `.json` 后缀。
 4. 进行开发或构建：
    ```bash
