@@ -27,7 +27,7 @@ export const getCustomConfig = (config_name?: string): CustomConfig | undefined 
       userConfig: appConfig
     }
   } catch (error: any) {
-    logInfo(error)
+    logInfo(error.message)
     return undefined
   }
 }
