@@ -7,13 +7,14 @@ import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { path } from '@vuepress/utils'
 import { App, defaultTheme, defineUserConfig } from 'vuepress'
 import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
+import { logInfo } from './utils/logger'
 
 // 轻量搜索插件
 // import { searchPlugin } from '@vuepress/plugin-search'
 
 const isProd = process.env.NODE_ENV === 'production'
 
-console.log('isProd', isProd)
+logInfo('isProd', isProd)
 const config = defineUserConfig({
   title: 'Vuepress Starter',
   description: 'Vuepress Starter',
@@ -42,11 +43,11 @@ const config = defineUserConfig({
 
   // Node App Hooks
   onInitialized: (app: App) => {
-    console.log('onInitialized')
+    logInfo('onInitialized')
   },
 
   onWatched: (app: App) => {
-    console.log('onWatched')
+    logInfo('onWatched')
   },
   // Node App Hooks End
 

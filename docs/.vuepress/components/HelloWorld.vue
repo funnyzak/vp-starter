@@ -1,5 +1,7 @@
 <script setup lang="ts">
-console.log('hello world!')
+import { logInfo } from '../utils/logger'
+
+logInfo('hello world!')
 
 const props = defineProps({
   name: {
