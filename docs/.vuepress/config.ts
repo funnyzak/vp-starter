@@ -54,8 +54,12 @@ const config = defineUserConfig(
       onWatched: (app: App, watchers: any) => {
         // logInfo('onWatched')
       },
-
+      onPrepared: async (app) => {
+        // write node vars to client
+        await app.writeTemp('author.js', `export const author = 'Leon'`)
+      },
       // Node App Hooks End
+
       bundler: viteBundler({
         viteOptions: {
           resolve: {

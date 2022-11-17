@@ -1,7 +1,8 @@
 <script setup lang="ts">
+import { author } from '@temp/author'
 import { logInfo } from '../utils/logger'
 
-logInfo('hello world!')
+logInfo(`Hello，${author}!`)
 
 const props = defineProps({
   name: {
@@ -13,7 +14,7 @@ const props = defineProps({
 </script>
 <template>
   <div class="hello-world" :style="{ display: props.name ? 'block' : 'none' }">
-    <h3>Hello, {{ props.name || 'World' }}!</h3>
+    <h3>Hello, {{ props.name || author }}!</h3>
   </div>
 </template>
 
