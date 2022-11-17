@@ -34,4 +34,6 @@ export const getCustomConfig = (config_name?: string): CustomConfig | undefined 
 
 const custom = process.env.CONFIG_NAME ? getCustomConfig(process.env.CONFIG_NAME) : undefined
 
+export const defaultCustomConfig = { ...getCustomConfig('default')! }
+
 export default custom

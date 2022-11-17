@@ -8,7 +8,7 @@ import { path } from '@vuepress/utils'
 import _ from 'lodash'
 import { App, defaultTheme, defineUserConfig, UserConfig } from 'vuepress'
 import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
-import CustomConfig from './custom'
+import CustomConfig, { defaultCustomConfig } from './custom'
 import { logInfo } from './utils/logger'
 
 // 轻量搜索插件
@@ -16,7 +16,7 @@ import { logInfo } from './utils/logger'
 
 const isProd = process.env.NODE_ENV === 'production'
 
-logInfo('isProd', isProd, 'custom', CustomConfig)
+logInfo('isProd', isProd, 'custom', CustomConfig, 'defaultCustomConfig', defaultCustomConfig)
 
 const config = defineUserConfig(
   _.merge<UserConfig, UserConfig>(
