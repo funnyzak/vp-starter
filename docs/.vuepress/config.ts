@@ -216,7 +216,7 @@ const config = defineUserConfig(
         importCode: {}
       }
     },
-    CustomConfig?.userConfig
+    CustomConfig ? CustomConfig.userConfig : {}
   )
 )
 
