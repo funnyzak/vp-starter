@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { usePages } from '@temp/pages'
-const pages = usePages()
+import { computed } from 'vue'
+
+const pages = computed(() => {
+  return usePages().filter((page: any) => page.title !== null && page.title.length > 0)
+})
 </script>
 
 <template>

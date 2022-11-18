@@ -118,7 +118,7 @@ const config = defineUserConfig(
         }),
         // Svg Icons
         svgIconPlugin({
-          svgsDir: path.resolve(__dirname, 'public/svg')
+          svgsDir: path.resolve(__dirname, 'public', 'svg')
         }),
         // Markdown Enhancements
         mdEnhancePlugin({
