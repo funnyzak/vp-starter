@@ -10,6 +10,8 @@ Current version: @@VERSION.
 
 Hi，@@AUTHOR.
 
+![avatar](./images/avatar.png)
+
 <RedDiv>
 
 Current count: {{ count }}

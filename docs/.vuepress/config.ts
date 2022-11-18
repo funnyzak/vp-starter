@@ -86,7 +86,7 @@ const config = defineUserConfig(
         viteOptions: {
           resolve: {
             alias: {
-              '@component': path.resolve(__dirname, 'components'),
+              '@components': path.resolve(__dirname, 'components'),
               '@public': path.resolve(__dirname, 'public'),
               '@configs': path.resolve(__dirname, 'configs')
             }

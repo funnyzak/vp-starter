@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Count from './Count.vue'
+import Count from '@components/Count.vue'
 
 import { author } from '@temp/author'
 import { logInfo } from '../utils/logger'
