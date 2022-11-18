@@ -58,7 +58,7 @@
     "@vuepress/plugin-prismjs": "2.0.0-beta.53",
     "@vuepress/plugin-google-analytics": "2.0.0-beta.53",
     "@vuepress/plugin-shiki": "2.0.0-beta.53",
-    "@vuepress/plugin-docsearch": "2.0.0-beta.53",
+    "@vuepress/plugin-docsearch": "2.0.0-alpha.1",
     "@vuepress/plugin-pwa": "2.0.0-beta.53",
     "@vuepress/plugin-search": "2.0.0-beta.53",
     "vuepress-plugin-copy-code2": "2.0.0-beta.123",
