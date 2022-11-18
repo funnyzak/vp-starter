@@ -39,7 +39,7 @@ const config = defineUserConfig(
       description: 'A VuePress-Starter Template for Vuepress 2',
 
       // extra tags in `<head>`
-      head,
+      head: head('/'),
 
       // set site base to default value
       base: '/',

@@ -1,13 +1,13 @@
 import type { HeadConfig } from '@vuepress/core'
 
-export const head: HeadConfig[] = [
+export const head = (base: string): HeadConfig[] => [
   [
     'link',
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      href: `/images/icons/favicon-16x16.png`
+      href: `${base}images/icons/favicon-16x16.png`
     }
   ],
   [
@@ -16,19 +16,19 @@ export const head: HeadConfig[] = [
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      href: `/images/icons/favicon-32x32.png`
+      href: `${base}images/icons/favicon-32x32.png`
     }
   ],
-  ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+  ['link', { rel: 'manifest', href: `${base}manifest.webmanifest` }],
   ['meta', { name: 'application-name', content: '帮助文档' }],
   ['meta', { name: 'apple-mobile-web-app-title', content: '帮助文档' }],
   ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-  ['link', { rel: 'apple-touch-icon', href: `/logo.png` }],
+  ['link', { rel: 'apple-touch-icon', href: `${base}logo.png` }],
   [
     'link',
     {
       rel: 'mask-icon',
-      href: '/images/icons/logo-mask.svg',
+      href: `${base}images/icons/logo-mask.svg`,
       color: '#0389c8'
     }
   ],
