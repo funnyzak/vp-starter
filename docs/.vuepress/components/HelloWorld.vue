@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Count from './Count.vue'
+
 import { author } from '@temp/author'
 import { logInfo } from '../utils/logger'
 import { ref } from 'vue'
@@ -15,9 +17,12 @@ const props = defineProps({
 })
 </script>
 <template>
-  <div class="hello-world" :style="{ display: props.name ? 'block' : 'none' }">
-    <h3>Hello, {{ props.name || author }}!</h3>
+  <div :style="{ display: props.name ? 'block' : 'none' }">
+    <h3 class="hello-world">Hello, {{ props.name || author }}!</h3>
+
     Test Global Define Constant: {{ env_value }}
+
+    <Count />
   </div>
 </template>
 
