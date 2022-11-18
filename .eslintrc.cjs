@@ -2,7 +2,7 @@
 const { defineConfig } = require('eslint-define-config')
 module.exports = defineConfig({
   root: true,
-  globals: { defineOptions: 'writable' },
+  globals: { defineOptions: 'writable', __GLOBAL_ENV__: 'readonly' },
   env: {
     browser: true,
     node: true,

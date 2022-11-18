@@ -60,6 +60,10 @@ const config = defineUserConfig(
 
       debug: !isProd,
 
+      // Define global constants
+      define: {
+        __GLOBAL_ENV__: process.env.NODE_ENV
+      },
       // Node App Hooks
       onInitialized: (app: App) => {
         logInfo('onInitialized')

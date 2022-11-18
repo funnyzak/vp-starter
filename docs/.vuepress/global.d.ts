@@ -5,3 +5,5 @@ declare module '@temp/author' {
 declare module '@temp/pages' {
   export const usePages: any
 }
+
+declare const __GLOBAL_ENV__: string

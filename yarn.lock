@@ -8119,7 +8119,7 @@ vue-router@^4.1.6:
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-vue@3.2.45, vue@^3.2.41, vue@^3.2.44, vue@^3.2.45:
+vue@3.2.45, vue@^3.2.41, vue@^3.2.45:
   version "3.2.45"
   resolved "https://registry.npmmirror.com/vue/-/vue-3.2.45.tgz#94a116784447eb7dbd892167784619fef379b3c8"
   integrity sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA==
@@ -8171,16 +8171,6 @@ vuepress-plugin-md-enhance@2.0.0-beta.123:
     vuepress-plugin-sass-palette "2.0.0-beta.123"
     vuepress-shared "2.0.0-beta.123"
 
-vuepress-plugin-sass-palette@2.0.0-beta.122:
-  version "2.0.0-beta.122"
-  resolved "https://registry.npmmirror.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.122.tgz#ea2d3d2713d005fb4e48e450a8e7b66a65147606"
-  integrity sha512-2OjGDR9Yb7AJUlTpmJZ/DBOVopAP14qGJNzYkWsU4xsHV+WR6ZQCxviebhdciEWMTIV7n6d595hB63ZoXMySag==
-  dependencies:
-    "@vuepress/utils" "2.0.0-beta.53"
-    chokidar "^3.5.3"
-    sass "^1.56.1"
-    vuepress-shared "2.0.0-beta.122"
-
 vuepress-plugin-sass-palette@2.0.0-beta.123:
   version "2.0.0-beta.123"
   resolved "https://registry.npmmirror.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.123.tgz#ee02f3fe1113602e97145d26228311bd3827193e"
@@ -8198,22 +8188,6 @@ vuepress-plugin-typescript@0.3.1:
   dependencies:
     cache-loader "^3.0.0"
     ts-loader "^7.0.3"
-
-vuepress-shared@2.0.0-beta.122:
-  version "2.0.0-beta.122"
-  resolved "https://registry.npmmirror.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.122.tgz#8bc0c455a5e03073f7e9a08c7862a117e7aa8559"
-  integrity sha512-JiyxrsO6fMMMf8oOGyX7+uF9zjw5K4IfpvrkFoW5T1IKpFrtewu8M+XhUGoLcCsMl6EqzJVZN18ce8T1mVtd/Q==
-  dependencies:
-    "@vuepress/client" "2.0.0-beta.53"
-    "@vuepress/plugin-git" "2.0.0-beta.53"
-    "@vuepress/shared" "2.0.0-beta.53"
-    "@vuepress/utils" "2.0.0-beta.53"
-    dayjs "^1.11.6"
-    execa "^6.1.0"
-    fflate "^0.7.4"
-    ora "^6.1.2"
-    vue "^3.2.44"
-    vue-router "^4.1.6"
 
 vuepress-shared@2.0.0-beta.123:
   version "2.0.0-beta.123"
