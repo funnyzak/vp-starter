@@ -16,11 +16,10 @@ import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
 import CustomConfig, { defaultCustomConfig } from './custom'
 import { logInfo } from './utils/logger'
 import { createRequire } from 'node:module'
-
-const require = createRequire(import.meta.url)
-
 // 轻量搜索插件
 // import { searchPlugin } from '@vuepress/plugin-search'
+
+const require = createRequire(import.meta.url)
 
 const isProd = process.env.NODE_ENV === 'production'
 
