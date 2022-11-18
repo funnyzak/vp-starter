@@ -1,21 +1,13 @@
-<script>
+<script lang="ts" setup>
 import { ref } from 'vue'
-export default {
-  setup() {
-    const count = ref(0)
-    return {
-      count
-    }
-  },
-
-  mounted() {
-    console.log(this.count)
-  }
+const count = ref(0)
+const add = () => {
+  count.value++
 }
 </script>
-
 <template>
-  <div @click="count++">
-    Click to increment: {{ count }}
+  <div>
+    <h3>Count: {{ count }}</h3>
+    <button @click="add">Add</button>
   </div>
 </template>
