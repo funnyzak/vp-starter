@@ -19,10 +19,6 @@ This is getting started.
 - [ ] Plan A
 - [x] Plan B
 
-## Count
-
-<Count />
-
 ## Svg
 
 <vp-icon name="leon" color="#3eaf7c" size="5em"/>
