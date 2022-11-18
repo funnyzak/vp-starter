@@ -1,4 +1,4 @@
-# Vuepress Starter
+# VuePress Starter
 
 [![Release Date][rle-image]][rle-url] [![GitHub last commit][last-commit-image]][repository-url] [![tag][tag-image]][rle-url] [![license][license-image]][repository-url]
 

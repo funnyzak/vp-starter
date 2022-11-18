@@ -35,8 +35,8 @@ logInfo('isProd', isProd, 'custom', CustomConfig, 'defaultCustomConfig', default
 const config = defineUserConfig(
   _.merge<UserConfig, UserConfig>(
     {
-      title: 'Vuepress Starter',
-      description: 'Vuepress Starter',
+      title: 'VuePress-Starter',
+      description: 'A VuePress-Starter Template for Vuepress 2',
 
       // extra tags in `<head>`
       head,
@@ -91,8 +91,8 @@ const config = defineUserConfig(
       locales: {
         '/': {
           lang: 'en-US',
-          title: 'Vuepress Starter',
-          description: 'Vuepress Starter to build your documentation'
+          title: 'VuePress-Starter',
+          description: 'VuePress-Starter to build your documentation'
         },
         '/zh/': {
           lang: 'zh-CN',
@@ -211,7 +211,6 @@ const config = defineUserConfig(
             colorMode: 'auto',
             colorModeSwitch: true,
             home: '/',
-
             sidebarDepth: 3,
             editLink: true,
             selectLanguageName: '简体中文',

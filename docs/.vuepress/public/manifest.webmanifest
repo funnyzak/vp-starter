@@ -1,7 +1,7 @@
 {
-  "name": "Vuepress Stater",
-  "short_name": "Vuepress Stater",
-  "description": "Vuepress Stater is a Vuepress starter template.",
+  "name": "VuePress-Starter",
+  "short_name": "VuePress-Starter",
+  "description": "VuePress-Starter is a Vuepress starter template.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fff",
