@@ -29,6 +29,7 @@
 - docsearch 配置支持。
 - google analytics 配置支持。
 - Pwa 配置支持。
+- Svg 配置支持。
 - 支持自定义配置构建。
 
 ## Preview
@@ -97,7 +98,8 @@ npx cross-env CONFIG_NAME=default yarn docs:build
     │   │   ├── config                           // vuepress 页面配置
     │   │   ├── config.ts                        // vuepress 配置文件
     │   │   ├── dist                             // vuepress 构建目录
-    │   │   ├── public                           // vuepress 静态资源目录
+    │   │   ├── public                           // vuepress 静态资源目录，其中子目录 svg 为svg图标目录
+    │   │   ├── server.ts                        // 服务端配置  
     │   │   ├── styles                           // vuepress 样式目录
     │   │   ├── templates                        // vuepress 模板目录
     │   │   └── theme                            // vuepress 主题目录
@@ -142,8 +144,9 @@ npx cross-env CONFIG_NAME=default yarn docs:build
 
 ## Reference
 
-- [Vitest](https://cn.vitest.dev/guide/features.html)
 - [Vuepress](https://v2.vuepress.vuejs.org/)
+- [MD-Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
+- [Awesome-Vuepress](https://github.com/vuepress/awesome-vuepress/blob/main/v2.md)
 - [Vuepress Plugin PWA](https://vuepress-plugin-pwa.danielroe.com/)
 - [Vuepress Plugin Container](https://vuepress-plugin-container.danielroe.com/)
 

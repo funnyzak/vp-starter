@@ -3,8 +3,10 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
+import { svgIconPlugin } from '@goy/vuepress-plugin-svg-icons'
 import { path } from '@vuepress/utils'
 import _ from 'lodash'
 import { App, defaultTheme, defineUserConfig, UserConfig } from 'vuepress'
@@ -89,6 +91,18 @@ const config = defineUserConfig(
       },
       pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
       plugins: [
+        // Svg Icons
+        svgIconPlugin({
+          svgsDir: path.resolve(__dirname, 'public/svg')
+        }),
+        // Markdown Enhancements
+        mdEnhancePlugin({
+          flowchart: false,
+          mermaid: false,
+          chart: false
+
+        }),
+        // 复制代码插件
         copyCodePlugin({
           // your options
         }),
