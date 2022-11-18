@@ -9,11 +9,13 @@ export default {
   },
 
   mounted() {
-    console.log(this.count) // 0
+    console.log(this.count)
   }
 }
 </script>
 
 <template>
-  <button @click="count++">{{ count }}</button>
+  <div @click="count++">
+    Click to increment: {{ count }}
+  </div>
 </template>
