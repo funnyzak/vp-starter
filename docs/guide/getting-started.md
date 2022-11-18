@@ -24,3 +24,19 @@ This is getting started.
 
 <vp-icon name="leon" color="#3eaf7c" size="10em"/>
 
+
+## Others
+
+
+<HelloWorld name="Leon" />
+
+## Code Block Demo
+
+```js
+export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  }
+}
+```

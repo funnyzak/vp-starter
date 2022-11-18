@@ -1,3 +1,0 @@
-# Hello
-
-<HelloWorld name="Leon" />

@@ -7,6 +7,7 @@ import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { svgIconPlugin } from '@goy/vuepress-plugin-svg-icons'
+import { usePagesPlugin } from './plugins/usePages'
 import { path } from '@vuepress/utils'
 import _ from 'lodash'
 import { App, defaultTheme, defineUserConfig, UserConfig } from 'vuepress'
@@ -91,6 +92,10 @@ const config = defineUserConfig(
       },
       pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
       plugins: [
+        // use pages
+        usePagesPlugin({
+          file: 'pages.js'
+        }),
         // Svg Icons
         svgIconPlugin({
           svgsDir: path.resolve(__dirname, 'public/svg')

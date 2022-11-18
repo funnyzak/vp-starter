@@ -1,5 +1,5 @@
-# Home
+# Introduction
 
-This is demo content.
+This is Introduction.
 
 <NpmBadge package="@vuepress/cli" />
