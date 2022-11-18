@@ -19,15 +19,15 @@ This is getting started.
 - [ ] Plan A
 - [x] Plan B
 
-## Count 
+## Count
 
 <Count />
 
-## Svg Icon
+## Svg
 
 <vp-icon name="leon" color="#3eaf7c" size="5em"/>
 
-## Others
+## Hello
 
 <HelloWorld name="Leon" />
 
