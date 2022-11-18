@@ -91,12 +91,12 @@ const config = defineUserConfig(
       locales: {
         '/': {
           lang: 'en-US',
-          title: 'VuePress-Starter',
+          title: 'VuePress Starter',
           description: 'VuePress-Starter to build your documentation'
         },
         '/zh/': {
           lang: 'zh-CN',
-          title: 'Vuepress 脚手架',
+          title: 'VuePress 脚手架',
           description: 'Vuepress 脚手架，用于快速搭建文档'
         }
       },
