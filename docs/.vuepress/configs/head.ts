@@ -29,11 +29,11 @@ export const head: HeadConfig[] = [
     {
       rel: 'mask-icon',
       href: '/images/icons/logo-mask.svg',
-      color: '#3eaf7c'
+      color: '#0389c8'
     }
   ],
-  ['meta', { name: 'msapplication-TileColor', content: '#3eaf7c' }],
-  ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+  ['meta', { name: 'msapplication-TileColor', content: '#0389c8' }],
+  ['meta', { name: 'theme-color', content: '#0389c8' }],
   [
     'meta',
     {

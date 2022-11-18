@@ -20,6 +20,6 @@ const props = defineProps({
 
 <style scoped>
 .hello-world {
-  color: #3eaf7c;
+  color: #0389c8;
 }
 </style>
