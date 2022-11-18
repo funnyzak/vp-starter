@@ -8,17 +8,28 @@ import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { svgIconPlugin } from '@goy/vuepress-plugin-svg-icons'
 import { usePagesPlugin } from './plugins/usePages'
+import { useMdDefine } from './plugins/mdDefine'
 import { path } from '@vuepress/utils'
 import _ from 'lodash'
 import { App, defaultTheme, defineUserConfig, UserConfig } from 'vuepress'
 import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
 import CustomConfig, { defaultCustomConfig } from './custom'
 import { logInfo } from './utils/logger'
+import { createRequire } from 'node:module'
+
+const require = createRequire(import.meta.url)
 
 // 轻量搜索插件
 // import { searchPlugin } from '@vuepress/plugin-search'
 
 const isProd = process.env.NODE_ENV === 'production'
+
+// MdDefine 插件自定义信息
+const MD_CONSTS = {
+  '@@VERSION': require('../../package.json').version,
+  '@@AUTHOR': require('../../package.json').author,
+  '@@REPO': require('../../package.json').repository.url
+}
 
 logInfo('isProd', isProd, 'custom', CustomConfig, 'defaultCustomConfig', defaultCustomConfig)
 
@@ -92,6 +103,8 @@ const config = defineUserConfig(
       },
       pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
       plugins: [
+        // use md define
+        useMdDefine(MD_CONSTS),
         // use pages
         usePagesPlugin({
           file: 'pages.js'
@@ -105,7 +118,6 @@ const config = defineUserConfig(
           flowchart: false,
           mermaid: false,
           chart: false
-
         }),
         // 复制代码插件
         copyCodePlugin({

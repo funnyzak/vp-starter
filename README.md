@@ -69,7 +69,7 @@ yarn style:fix
 # lint staged hook 检查
 yarn lint:staged
 
-# lint 
+# lint
 yarn lint:check
 
 # lint 样式、js 并修复
@@ -99,7 +99,7 @@ npx cross-env CONFIG_NAME=default yarn docs:build
     │   │   ├── config.ts                        // vuepress 配置文件
     │   │   ├── dist                             // vuepress 构建目录
     │   │   ├── public                           // vuepress 静态资源目录，其中子目录 svg 为svg图标目录
-    │   │   ├── server.ts                        // 服务端配置  
+    │   │   ├── server.ts                        // 服务端配置
     │   │   ├── styles                           // vuepress 样式目录
     │   │   ├── templates                        // vuepress 模板目录
     │   │   └── theme                            // vuepress 主题目录

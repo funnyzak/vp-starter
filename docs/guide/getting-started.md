@@ -19,14 +19,11 @@ This is getting started.
 - [ ] Plan A
 - [x] Plan B
 
-
 ## Svg Icon
 
 <vp-icon name="leon" color="#3eaf7c" size="10em"/>
 
-
 ## Others
-
 
 <HelloWorld name="Leon" />
 
