@@ -10,9 +10,9 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
   </ParentLayout>
 </template>
 
-<style lang="css">
+<style lang="css" scoped>
 .footer {
   text-align: center;
-  display: none;
+  margin: 0 auto;
 }
 </style>
