@@ -4,6 +4,7 @@ import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { path } from '@vuepress/utils'
 import _ from 'lodash'
 import { App, defaultTheme, defineUserConfig, UserConfig } from 'vuepress'
@@ -88,6 +89,9 @@ const config = defineUserConfig(
       },
       pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
       plugins: [
+        copyCodePlugin({
+          // your options
+        }),
         pwaPlugin({
           skipWaiting: true
         }),
