@@ -7608,6 +7608,11 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.npmmirror.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==
 
+striptags@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmmirror.com/striptags/-/striptags-3.2.0.tgz#cc74a137db2de8b0b9a370006334161f7dd67052"
+  integrity sha512-g45ZOGzHDMe2bdYMdIvdAfCQkCTDMGBazSw1ypMowwGIee7ZQ5dU0rBJ8Jqgl+jAKIv4dbeE1jscZq9wid1Tkw==
+
 stylis@^4.1.2:
   version "4.1.3"
   resolved "https://registry.npmmirror.com/stylis/-/stylis-4.1.3.tgz#fd2fbe79f5fed17c55269e16ed8da14c84d069f7"
@@ -8114,7 +8119,7 @@ vue-router@^4.1.6:
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-vue@3.2.45, vue@^3.2.41, vue@^3.2.44:
+vue@3.2.45, vue@^3.2.41, vue@^3.2.44, vue@^3.2.45:
   version "3.2.45"
   resolved "https://registry.npmmirror.com/vue/-/vue-3.2.45.tgz#94a116784447eb7dbd892167784619fef379b3c8"
   integrity sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA==
@@ -8125,18 +8130,18 @@ vue@3.2.45, vue@^3.2.41, vue@^3.2.44:
     "@vue/server-renderer" "3.2.45"
     "@vue/shared" "3.2.45"
 
-vuepress-plugin-copy-code2@2.0.0-beta.122:
-  version "2.0.0-beta.122"
-  resolved "https://registry.npmmirror.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.122.tgz#536c6e2b1c20544b7ef18c00203bb0402130d1bb"
-  integrity sha512-az6ImlwaDiEUm+aGeu2W+Gm96fT0AYV+moM8Au4SjjsJSPBJXLpvCFgVMpeEOpynwYfyh3cR6N27yxJb04ev9g==
+vuepress-plugin-copy-code2@2.0.0-beta.123:
+  version "2.0.0-beta.123"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.123.tgz#9c6e9f02f87ca3f7e91e59e7feb6acb011c78224"
+  integrity sha512-zrbWWA53EjvSo6NBdRVpeKPZ6LAh8XubLW7bfnd0ZKFta9FcDbutmtkUjBL9Y66W+BUfvqxBTuPaMu73IkCYFw==
   dependencies:
     "@vuepress/client" "2.0.0-beta.53"
     "@vuepress/utils" "2.0.0-beta.53"
     balloon-css "^1.2.0"
-    vue "^3.2.44"
+    vue "^3.2.45"
     vue-router "^4.1.6"
-    vuepress-plugin-sass-palette "2.0.0-beta.122"
-    vuepress-shared "2.0.0-beta.122"
+    vuepress-plugin-sass-palette "2.0.0-beta.123"
+    vuepress-shared "2.0.0-beta.123"
 
 vuepress-plugin-md-enhance@2.0.0-beta.122:
   version "2.0.0-beta.122"
@@ -8176,6 +8181,16 @@ vuepress-plugin-sass-palette@2.0.0-beta.122:
     sass "^1.56.1"
     vuepress-shared "2.0.0-beta.122"
 
+vuepress-plugin-sass-palette@2.0.0-beta.123:
+  version "2.0.0-beta.123"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.123.tgz#ee02f3fe1113602e97145d26228311bd3827193e"
+  integrity sha512-ON72HokI7PNAofo5ZhRvxlxx9eyxQq/czAwTpImcOUOlp2GBPTl7MmrXEB4rtc//F6oK8JoofRsnM8OiJvckmA==
+  dependencies:
+    "@vuepress/utils" "2.0.0-beta.53"
+    chokidar "^3.5.3"
+    sass "^1.56.1"
+    vuepress-shared "2.0.0-beta.123"
+
 vuepress-plugin-typescript@0.3.1:
   version "0.3.1"
   resolved "https://registry.npmmirror.com/vuepress-plugin-typescript/-/vuepress-plugin-typescript-0.3.1.tgz#6c9e2999e1346d9c1198f7995a0f4e46902f9472"
@@ -8198,6 +8213,23 @@ vuepress-shared@2.0.0-beta.122:
     fflate "^0.7.4"
     ora "^6.1.2"
     vue "^3.2.44"
+    vue-router "^4.1.6"
+
+vuepress-shared@2.0.0-beta.123:
+  version "2.0.0-beta.123"
+  resolved "https://registry.npmmirror.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.123.tgz#a61a831a89f2458ced2516654968e404809277d0"
+  integrity sha512-vVZxXEIHNhmEIdxIZrTUTPWxaYsQtxhq7yhDuupHgNvjG1AxrF1ag8tSGGlF0S6Imid3Bs69lm7tF4dFNFuDrw==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.53"
+    "@vuepress/plugin-git" "2.0.0-beta.53"
+    "@vuepress/shared" "2.0.0-beta.53"
+    "@vuepress/utils" "2.0.0-beta.53"
+    dayjs "^1.11.6"
+    execa "^6.1.0"
+    fflate "^0.7.4"
+    ora "^6.1.2"
+    striptags "3.2.0"
+    vue "^3.2.45"
     vue-router "^4.1.6"
 
 vuepress-vite@2.0.0-beta.53:
