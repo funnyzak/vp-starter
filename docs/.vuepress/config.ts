@@ -16,6 +16,7 @@ import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
 import CustomConfig, { defaultCustomConfig } from './custom'
 import { logInfo } from './utils/logger'
 import { createRequire } from 'node:module'
+import custom from './custom'
 // 轻量搜索插件
 // import { searchPlugin } from '@vuepress/plugin-search'
 
@@ -32,6 +33,9 @@ const MD_CONSTS = {
 
 logInfo('isProd', isProd, 'custom', CustomConfig, 'defaultCustomConfig', defaultCustomConfig)
 
+// Default site baseURL
+const defaultBase = '/'
+
 const config = defineUserConfig(
   _.merge<UserConfig, UserConfig>(
     {
@@ -39,10 +43,10 @@ const config = defineUserConfig(
       description: 'A VuePress-Starter Template for Vuepress 2',
 
       // extra tags in `<head>`
-      head: head('/'),
+      head: head(!custom ? defaultBase : custom.config.app.base ? custom.config.app.base : defaultBase),
 
       // set site base to default value
-      base: '/',
+      base: defaultBase,
 
       // set site lang to default value
       lang: 'zh-CN',
