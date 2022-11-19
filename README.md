@@ -81,7 +81,7 @@ npx cross-env CONFIG_NAME=default yarn docs:build
 
 ## Structure
 
-```plain
+```txt
   ├── .editorconfig                            // 编辑器配置文件
   ├── .eslintignore                            // eslint 忽略文件
   ├── .eslintrc.cjs                            // eslint 配置文件
