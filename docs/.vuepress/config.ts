@@ -38,7 +38,7 @@ const defaultBase = '/'
 const config = defineUserConfig(
   _.merge<UserConfig, UserConfig>(
     {
-      title: 'VuePress Starter',
+      title: 'VP Starter',
       description: 'A VuePress2 Template for building documentation websites.',
 
       // extra tags in `<head>`
@@ -98,13 +98,13 @@ const config = defineUserConfig(
       locales: {
         '/': {
           lang: 'en-US',
-          title: 'VuePress Starter',
+          title: 'VP Starter',
           description: 'A VuePress2 Template for building documentation websites.'
         },
         '/zh/': {
           lang: 'zh-CN',
-          title: 'VuePress 脚手架',
-          description: 'Vuepress 脚手架，用于快速搭建文档。'
+          title: 'VP Starter',
+          description: 'Vuepress2 脚手架, 用于构建文档网站.'
         }
       },
       pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],

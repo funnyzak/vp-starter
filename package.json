@@ -1,15 +1,15 @@
 {
-  "name": "vuepress-starter",
-  "version": "0.1.1",
-  "description": "vuepress starter",
+  "name": "vp-starter",
+  "version": "0.2.0",
+  "description": "A VuePress2 Template for building documentation websites.",
   "author": "Leon <silenceace@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/funnyzak/vuepress-starter.git"
+    "url": "git+https://github.com/funnyzak/vp-starter.git"
   },
   "keywords": [
     "vuepress",
-    "vuepress-starter",
+    "vp-starter",
     "document"
   ],
   "scripts": {
@@ -88,7 +88,7 @@
     "node": ">=14.18.0"
   },
   "bugs": {
-    "url": "https://github.com/funnyzak/vuepress-starter/issues"
+    "url": "https://github.com/funnyzak/vp-starter/issues"
   },
-  "homepage": "https://github.com/funnyzak/vuepress-starter#readme"
+  "homepage": "https://github.com/funnyzak/vp-starter#readme"
 }

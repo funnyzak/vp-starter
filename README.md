@@ -1,4 +1,4 @@
-# VuePress Starter
+# VP Starter
 
 [![Release Date][rle-image]][rle-url] [![GitHub last commit][last-commit-image]][repository-url] [![tag][tag-image]][rle-url] [![license][license-image]][repository-url]
 
@@ -9,18 +9,18 @@
 <!-- [![GitHub repo size][repo-size-image]][repository-url]
  -->
 
-[ci-image]: https://github.com/funnyzak/vuepress-starter/actions/workflows/ci.yml/badge.svg
-[ci-url]: https://github.com/funnyzak/vuepress-starter/actions
-[license-image]: https://img.shields.io/github/license/funnyzak/vuepress-starter.svg?style=flat-square
-[repository-url]: https://github.com/funnyzak/vuepress-starter
-[repo-size-image]: https://img.shields.io/github/repo-size/funnyzak/vuepress-starter
-[commit-activity-image]: https://img.shields.io/github/commit-activity/m/funnyzak/vuepress-starter?style=flat-square
-[last-commit-image]: https://img.shields.io/github/last-commit/funnyzak/vuepress-starter?style=flat-square&lable=commit
-[rle-image]: https://img.shields.io/github/release-date/funnyzak/vuepress-starter.svg?label=release
-[rle-url]: https://github.com/funnyzak/vuepress-starter/releases/latest
-[sg-url]: https://sourcegraph.com/github.com/funnyzak/vuepress-starter
+[ci-image]: https://github.com/funnyzak/vp-starter/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/funnyzak/vp-starter/actions
+[license-image]: https://img.shields.io/github/license/funnyzak/vp-starter.svg?style=flat-square
+[repository-url]: https://github.com/funnyzak/vp-starter
+[repo-size-image]: https://img.shields.io/github/repo-size/funnyzak/vp-starter
+[commit-activity-image]: https://img.shields.io/github/commit-activity/m/funnyzak/vp-starter?style=flat-square
+[last-commit-image]: https://img.shields.io/github/last-commit/funnyzak/vp-starter?style=flat-square&lable=commit
+[rle-image]: https://img.shields.io/github/release-date/funnyzak/vp-starter.svg?label=release
+[rle-url]: https://github.com/funnyzak/vp-starter/releases/latest
+[sg-url]: https://sourcegraph.com/github.com/funnyzak/vp-starter
 [sg-image]: https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=flat-square
-[tag-image]: https://img.shields.io/github/tag/funnyzak/vuepress-starter.svg
+[tag-image]: https://img.shields.io/github/tag/funnyzak/vp-starter.svg
 
 ## Features
 
@@ -33,7 +33,7 @@
 
 ## Preview
 
-[![preview](https://raw.githubusercontent.com/funnyzak/vuepress-starter/main/.github/docs/images/preview.png)](https://vuepress.yycc.dev/)
+[![preview](https://raw.githubusercontent.com/funnyzak/vp-starter/main/.github/docs/images/preview.png)](https://vuepress.yycc.dev/)
 
 ## Quick Start
 
@@ -154,8 +154,8 @@ npx cross-env CONFIG_NAME=default yarn docs:build
 
 如果你有任何的想法或者意见，欢迎提 Issue 或者 PR。
 
-<a href="https://github.com/funnyzak/vuepress-starter/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=funnyzak/vuepress-starter" />
+<a href="https://github.com/funnyzak/vp-starter/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=funnyzak/vp-starter" />
 </a>
 
 ## License
