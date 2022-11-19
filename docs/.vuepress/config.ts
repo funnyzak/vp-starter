@@ -195,7 +195,7 @@ const config = defineUserConfig(
 
       theme: defaultTheme({
         logo: '/images/icons/logo-mask.png',
-        repo: 'funnyzak/vuepress-starter',
+        repo: 'funnyzak/vp-starter',
         docsDir: 'docs',
 
         locales: {
