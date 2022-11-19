@@ -143,11 +143,10 @@ npx cross-env CONFIG_NAME=default yarn docs:build
 
 ## Reference
 
-- [Vuepress](https://v2.vuepress.vuejs.org/)
-- [MD-Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
-- [Awesome-Vuepress](https://github.com/vuepress/awesome-vuepress/blob/main/v2.md)
-- [Vuepress Plugin PWA](https://vuepress-plugin-pwa.danielroe.com/)
-- [Vuepress Plugin Container](https://vuepress-plugin-container.danielroe.com/)
+- **[vuepress](https://v2.vuepress.vuejs.org/)** is a minimalistic Vue-powered static site generator, made with love by Evan You.
+- **[vuepress-plugin-md-enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)** is a plugin for VuePress that provides a lot of useful features for markdown.
+- **[awesome-vuepress](https://github.com/vuepress/awesome-vuepress/blob/main/v2.md)** is a curated list of awesome things related to VuePress.
+- **[vuepress-plugin-pwa](https://vuepress-plugin-pwa.danielroe.com/)** is a VuePress plugin that adds PWA support to your site.
 
 ## Contribution
 

@@ -2,15 +2,41 @@
 
 This is Introduction.
 
+## MD Define
+
 Repo: @@REPO.
 
 Current version: @@VERSION.
 
+## Component
+
+<br/>
 <NpmBadge package="pushoo-cli" />
 
-Hi，@@AUTHOR.
+## Image
 
 ![avatar](./images/avatar.png)
+
+
+## Container
+
+::: tip
+This is a tip
+:::
+
+::: warning
+This is a warning
+:::
+
+::: danger
+This is a dangerous warning
+:::
+
+::: details
+This is a details block
+:::
+
+## MD Vue
 
 <RedDiv>
 
@@ -36,6 +62,6 @@ const count = ref(0)
 
 <style>
 .red-div {
-  color: red;
+  color: #ff0000;
 }
 </style>
