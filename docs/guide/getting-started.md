@@ -18,7 +18,6 @@ This is getting started.
 
 [[toc]]
 
-
 ## Task List
 
 - [ ] Plan A
@@ -43,7 +42,6 @@ Current version: @@VERSION.
 
 ![avatar](./images/avatar.png)
 
-
 ## Code Block Demo
 
 ```js
@@ -63,7 +61,7 @@ export default {
 
 Below is a demo of including a markdown file:
 
-@include(./common/_timestamp.md)
+@include(./common/\_timestamp.md)
 
 ## Tab
 
@@ -108,7 +106,6 @@ npm i -D vuepress@next
 ```
 
 :::
-
 
 ## Align
 
@@ -165,7 +162,7 @@ Details container
 A custom information container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -174,7 +171,7 @@ const a = 1;
 A custom note container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -184,7 +181,7 @@ const a = 1;
 A custom tip container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -194,7 +191,7 @@ const a = 1;
 A custom warning container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -204,7 +201,7 @@ const a = 1;
 A custom danger container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -214,7 +211,7 @@ const a = 1;
 A custom details container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -237,7 +234,6 @@ const a = 1;
 ::: details
 This is a details block
 :::
-
 
 ## MD Vue
 

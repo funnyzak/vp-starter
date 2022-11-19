@@ -39,7 +39,6 @@ Current version: @@VERSION.
 
 <NpmBadge package="pushoo-cli" />
 
-
 ## Tab 标签
 
 ### 内容 Tab 标签
@@ -135,7 +134,7 @@ Details container
 A custom information container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -144,7 +143,7 @@ const a = 1;
 A custom note container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -154,7 +153,7 @@ const a = 1;
 A custom tip container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -164,7 +163,7 @@ const a = 1;
 A custom warning container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -174,7 +173,7 @@ const a = 1;
 A custom danger container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::
@@ -184,7 +183,7 @@ const a = 1;
 A custom details container with `code`, [link](#demo).
 
 ```js
-const a = 1;
+const a = 1
 ```
 
 :::

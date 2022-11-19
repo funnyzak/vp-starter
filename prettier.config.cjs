@@ -17,7 +17,8 @@ module.exports = {
   insertPragma: false,
   requirePragma: false, //无需顶部注释即可格式化
   requirePragma: false,
-  proseWrap: 'never',
+  // By default, Prettier will not change wrapping in markdown text since some services use a linebreak-sensitive renderer, e.g. GitHub comments and BitBucket. To have Prettier wrap prose to the print width, change this option to "always". If you want Prettier to force all prose blocks to be on a single line and rely on editor/viewer soft wrapping instead, you can use "never".
+  proseWrap: 'preserve',
   singleQuote: true,
   htmlWhitespaceSensitivity: 'strict', //对HTML全局空白不敏感
   endOfLine: 'auto',
