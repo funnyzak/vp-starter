@@ -1,20 +1,15 @@
 # 快速开始
 
-@include(./../../../README.md)
+以下是一些快速开始的例子。
 
+## Toc 目录
 
-这是快速开始文档。
-
-
+[[toc]]
 
 ## 任务列表
 
 - [ ] Plan A
 - [x] Plan B
-
-## Hello 组件
-
-<HelloWorld name="Leon" />
 
 ## 代码块
 
@@ -27,15 +22,23 @@ export default {
 }
 ```
 
+## MD 变量
+
+Repo: @@REPO.
+
+Current version: @@VERSION.
+
 ## Vue 模板变量
 
 {{ new Date() }}
 
-## 包含 MD
+## Vue 组件
 
-Below is a demo of including a markdown file:
+<HelloWorld name="Leon" />
+<br/>
 
-@include(./common/_timestamp.md)
+<NpmBadge package="pushoo-cli" />
+
 
 ## Tab 标签
 
@@ -81,20 +84,27 @@ npm i -D vuepress@next
 
 :::
 
-
 ## 段落对齐
 
 Paragraphs can be aligned to the left, right, or center.
 
-::: center
-Paragraph to center
-:::
+::: center Paragraph to center :::
 
-::: right
-Right paragraph
-:::
+::: right Right paragraph :::
 
 ## 自定义容器
+
+::: tip
+This is a tip
+:::
+
+::: warning
+This is a warning
+:::
+
+::: danger
+This is a dangerous warning
+:::
 
 ::: info
 Information container
@@ -193,3 +203,49 @@ const a = 1;
 
 ::: danger Custom danger
 :::
+
+::: details
+This is a details block
+:::
+
+## 列表
+
+### 无序列表
+
+- 无序列表项 1
+- 无序列表项 2
+- 无序列表项 3
+
+## Markdown Vue
+
+<RedDiv>
+
+Current count: {{ count }}
+
+</RedDiv>
+
+<button @click="count++">Tap me!</button>
+
+<script setup>
+import { h, ref } from 'vue'
+
+const RedDiv = (_, ctx) => h(
+  'div',
+  {
+    class: 'red-div',
+  },
+  ctx.slots.default()
+)
+const msg = 'Markdown 中的 Vue'
+const count = ref(0)
+</script>
+
+<style>
+.red-div {
+  color: #ff0000;
+}
+</style>
+
+## 页面数据
+
+<PageData/>
