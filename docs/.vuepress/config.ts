@@ -128,7 +128,7 @@ const config = defineUserConfig(
         }),
         // 复制代码插件
         copyCodePlugin({
-          // your options
+          showInMobile: true
         }),
         pwaPlugin({
           skipWaiting: true
