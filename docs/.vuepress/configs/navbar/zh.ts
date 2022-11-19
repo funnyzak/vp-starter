@@ -7,11 +7,8 @@ export const navbarZh: NavbarConfig = [
     link: '/'
   },
   {
-    text: '关于',
-    children: [
-      { text: '博客', link: 'https://yycc.me', target: '_blank' },
-      { text: '联系我', link: 'mailto:y@yycc.me', target: '_blank' }
-    ]
+    text: '指南',
+    link: '/zh/guide/getting-started.md'
   },
   {
     text: `v${version}`,

@@ -7,11 +7,8 @@ export const navbarEn: NavbarConfig = [
     link: '/'
   },
   {
-    text: 'About',
-    children: [
-      { text: 'Blog', link: 'https://yycc.me', target: '_blank' },
-      { text: 'Contact', link: 'mailto:y@yycc.me', target: '_blank' }
-    ]
+    text: 'Guide',
+    link: '/guide/getting-started.md'
   },
   {
     text: `v${version}`,

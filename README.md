@@ -147,6 +147,8 @@ npx cross-env CONFIG_NAME=default yarn docs:build
 - **[vuepress-plugin-md-enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)** is a plugin for VuePress that provides a lot of useful features for markdown.
 - **[awesome-vuepress](https://github.com/vuepress/awesome-vuepress/blob/main/v2.md)** is a curated list of awesome things related to VuePress.
 - **[vuepress-plugin-pwa](https://vuepress-plugin-pwa.danielroe.com/)** is a VuePress plugin that adds PWA support to your site.
+- **[theme config](https://v2.vuepress.vuejs.org/reference/default-theme/config.html)** is the default theme configuration for VuePress.
+- **[offical plugins](https://v2.vuepress.vuejs.org/reference/plugin/back-to-top.html)** is a list of official plugins.
 
 ## Contribution
 
