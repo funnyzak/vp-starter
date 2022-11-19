@@ -119,7 +119,12 @@ const config = defineUserConfig(
         mdEnhancePlugin({
           flowchart: false,
           mermaid: false,
-          chart: false
+          chart: false,
+          tabs: true,
+          align: true,
+          container: true,
+          codetabs: true,
+          include: true
         }),
         // 复制代码插件
         copyCodePlugin({
