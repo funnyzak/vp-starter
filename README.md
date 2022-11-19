@@ -81,41 +81,43 @@ npx cross-env CONFIG_NAME=default yarn docs:build
 
 ## Structure
 
-    ├── .editorconfig                            // 编辑器配置文件
-    ├── .eslintignore                            // eslint 忽略文件
-    ├── .eslintrc.cjs                            // eslint 配置文件
-    ├── .github                                  // github 配置文件
-    ├── .gitignore                               // git 忽略文件
-    ├── .husky                                   // husky 配置文件
-    ├── .npmrc                                   // npm 配置文件
-    ├── .vscode                                  // vscode 配置文件
-    ├── docs                                     // 文档目录
-    │   ├── .vuepress                            // vuepress 配置目录
-    │   │   ├── client.ts                        // 客户端配置
-    │   │   ├── components                       // vuepress 组件目录
-    │   │   ├── custom                           // 自定义构建配置目录
-    │   │   ├── config                           // vuepress 页面配置
-    │   │   ├── config.ts                        // vuepress 配置文件
-    │   │   ├── dist                             // vuepress 构建目录
-    │   │   ├── public                           // vuepress 静态资源目录
-    │   │   ├── server.ts                        // 服务端配置
-    │   │   ├── styles                           // vuepress 样式目录
-    │   │   ├── templates                        // vuepress 模板目录
-    │   │   └── theme                            // vuepress 主题目录
-    │   ├── guide                                // 文档
-    │   │   ├── getting-started.md
-    │   │   ├── hello.md
-    │   │   └── index.md
-    │   ├── index.md
-    │   └── zh
-    │       ├── guide
-    │       └── index.md
-    ├── package.json                            // package.json
-    ├── prettier.config.cjs                     // prettier 配置文件
-    ├── renovate.json                           // renovate 配置文件
-    ├── tsconfig.json                           // ts 配置文件
-    ├── tsconfig.node.json                      // node 环境下的 ts 配置
-    └── yarn.lock                               // yarn 锁文件
+```plain
+  ├── .editorconfig                            // 编辑器配置文件
+  ├── .eslintignore                            // eslint 忽略文件
+  ├── .eslintrc.cjs                            // eslint 配置文件
+  ├── .github                                  // github 配置文件
+  ├── .gitignore                               // git 忽略文件
+  ├── .husky                                   // husky 配置文件
+  ├── .npmrc                                   // npm 配置文件
+  ├── .vscode                                  // vscode 配置文件
+  ├── docs                                     // 文档目录
+  │   ├── .vuepress                            // vuepress 配置目录
+  │   │   ├── client.ts                        // 客户端配置
+  │   │   ├── components                       // vuepress 组件目录
+  │   │   ├── custom                           // 自定义构建配置目录
+  │   │   ├── config                           // vuepress 页面配置
+  │   │   ├── config.ts                        // vuepress 配置文件
+  │   │   ├── dist                             // vuepress 构建目录
+  │   │   ├── public                           // vuepress 静态资源目录
+  │   │   ├── server.ts                        // 服务端配置
+  │   │   ├── styles                           // vuepress 样式目录
+  │   │   ├── templates                        // vuepress 模板目录
+  │   │   └── theme                            // vuepress 主题目录
+  │   ├── guide                                // 文档
+  │   │   ├── getting-started.md
+  │   │   ├── hello.md
+  │   │   └── index.md
+  │   ├── index.md
+  │   └── zh
+  │       ├── guide
+  │       └── index.md
+  ├── package.json                            // package.json
+  ├── prettier.config.cjs                     // prettier 配置文件
+  ├── renovate.json                           // renovate 配置文件
+  ├── tsconfig.json                           // ts 配置文件
+  ├── tsconfig.node.json                      // node 环境下的 ts 配置
+  └── yarn.lock                               // yarn 锁文件
+```
 
 ## FAQ
 
