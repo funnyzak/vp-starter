@@ -38,8 +38,8 @@ const defaultBase = '/'
 const config = defineUserConfig(
   _.merge<UserConfig, UserConfig>(
     {
-      title: 'VuePress-Starter',
-      description: 'A VuePress-Starter Template for Vuepress 2',
+      title: 'VuePress Starter',
+      description: 'A VuePress2 Template for building documentation websites.',
 
       // extra tags in `<head>`
       head: head(!custom ? defaultBase : custom.config.app.base ? custom.config.app.base : defaultBase),
@@ -99,12 +99,12 @@ const config = defineUserConfig(
         '/': {
           lang: 'en-US',
           title: 'VuePress Starter',
-          description: 'VuePress-Starter to build your documentation'
+          description: 'A VuePress2 Template for building documentation websites.'
         },
         '/zh/': {
           lang: 'zh-CN',
           title: 'VuePress 脚手架',
-          description: 'Vuepress 脚手架，用于快速搭建文档'
+          description: 'Vuepress 脚手架，用于快速搭建文档。'
         }
       },
       pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],

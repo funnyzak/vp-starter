@@ -1,7 +1,7 @@
 {
-  "name": "VuePress-Starter",
-  "short_name": "VuePress-Starter",
-  "description": "VuePress-Starter is a Vuepress starter template.",
+  "name": "VuePress Starter",
+  "short_name": "VPStarter",
+  "description": "A VuePress2 Template for building documentation websites.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fff",
