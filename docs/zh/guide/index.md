@@ -1,4 +1,4 @@
-# 首页
+# 介绍
 
 <NpmBadge package="@vuepress/cli" />
 

@@ -4,7 +4,7 @@ export const sidebarZh: SidebarConfig = {
   '/zh/guide/': [
     {
       text: '指南',
-      children: ['/zh/guide/index.md', '/zh/guide/getting-started.md', '/zh/guide/hello.md']
+      children: ['/zh/guide/getting-started.md', '/zh/guide/index.md', '/zh/guide/hello.md']
     }
   ]
 }

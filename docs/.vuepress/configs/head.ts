@@ -20,8 +20,8 @@ export const head = (base: string): HeadConfig[] => [
     }
   ],
   ['link', { rel: 'manifest', href: `${base}manifest.webmanifest` }],
-  ['meta', { name: 'application-name', content: '帮助文档' }],
-  ['meta', { name: 'apple-mobile-web-app-title', content: '帮助文档' }],
+  ['meta', { name: 'application-name', content: 'VPStarter' }],
+  ['meta', { name: 'apple-mobile-web-app-title', content: 'VPStarter' }],
   ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ['link', { rel: 'apple-touch-icon', href: `${base}logo.png` }],
   [

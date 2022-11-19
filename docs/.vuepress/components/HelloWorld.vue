@@ -1,11 +1,7 @@
 <script setup lang="ts">
 import { author } from '@temp/author'
 import { ref } from 'vue'
-import { logInfo } from '../utils/logger'
 const env_value = ref(__GLOBAL_ENV__)
-
-logInfo(`Hello，${author}!`)
-
 const props = defineProps({
   name: {
     type: String,

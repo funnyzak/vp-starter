@@ -4,7 +4,7 @@ export const sidebarEn: SidebarConfig = {
   '/guide/': [
     {
       text: 'Guide',
-      children: ['/guide/index.md', '/guide/getting-started.md', '/guide/pagedata.md']
+      children: ['/guide/getting-started.md', '/guide/index.md', '/guide/pagedata.md']
     }
   ]
 }

@@ -4,9 +4,9 @@ date: 2022-11-16
 description: VuePress Starter is a VuePress starter template with i18n support, built-in PWA, and more.
 head:
   - - meta
-    - name: hello
-      content: world
-  - [meta, { name: funnyzak, content: vuepress }]
+    - name: page-name
+      content: getting-started
+  - [meta, { name: say, content: hi }]
 routeMeta: { name: funnyzak, content: vuepress }
 ---
 
