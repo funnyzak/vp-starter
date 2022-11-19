@@ -29,7 +29,6 @@
 - docsearch 配置支持。
 - google analytics 配置支持。
 - Pwa 配置支持。
-- Svg 配置支持。
 - 支持自定义配置构建。
 
 ## Preview
@@ -98,7 +97,7 @@ npx cross-env CONFIG_NAME=default yarn docs:build
     │   │   ├── config                           // vuepress 页面配置
     │   │   ├── config.ts                        // vuepress 配置文件
     │   │   ├── dist                             // vuepress 构建目录
-    │   │   ├── public                           // vuepress 静态资源目录，其中子目录 svg 为svg图标目录
+    │   │   ├── public                           // vuepress 静态资源目录
     │   │   ├── server.ts                        // 服务端配置
     │   │   ├── styles                           // vuepress 样式目录
     │   │   ├── templates                        // vuepress 模板目录

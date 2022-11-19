@@ -6,7 +6,6 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
-import { svgIconPlugin } from '@goy/vuepress-plugin-svg-icons'
 import { usePagesPlugin } from './plugins/usePages'
 import { useMdDefine } from './plugins/mdDefine'
 import { path } from '@vuepress/utils'
@@ -115,10 +114,6 @@ const config = defineUserConfig(
         // use pages
         usePagesPlugin({
           file: 'pages.js'
-        }),
-        // Svg Icons
-        svgIconPlugin({
-          svgsDir: path.resolve(__dirname, 'public', 'svg')
         }),
         // Markdown Enhancements
         mdEnhancePlugin({
