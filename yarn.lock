@@ -2035,6 +2035,16 @@
     ora "^6.1.2"
     upath "^2.0.1"
 
+"@vueuse/core@9.5.0":
+  version "9.5.0"
+  resolved "https://registry.npmmirror.com/@vueuse/core/-/core-9.5.0.tgz#6726e952e8f92b465457d3bc95deb385aacd9a41"
+  integrity sha512-6GsWBsJHEb3sYw15mbLrcbslAVY45pkzjJYTKYKCXv88z7srAF0VEW0q+oXKsl58tCbqooplInahXFg8Yo1m4w==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.16"
+    "@vueuse/metadata" "9.5.0"
+    "@vueuse/shared" "9.5.0"
+    vue-demi "*"
+
 "@vueuse/core@^9.3.1", "@vueuse/core@^9.5.0":
   version "9.5.0"
   resolved "https://registry.npmmirror.com/@vueuse/core/-/core-9.5.0.tgz"
