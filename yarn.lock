@@ -2035,19 +2035,9 @@
     ora "^6.1.2"
     upath "^2.0.1"
 
-"@vueuse/core@9.5.0":
+"@vueuse/core@9.5.0", "@vueuse/core@^9.3.1", "@vueuse/core@^9.5.0":
   version "9.5.0"
   resolved "https://registry.npmmirror.com/@vueuse/core/-/core-9.5.0.tgz#6726e952e8f92b465457d3bc95deb385aacd9a41"
-  integrity sha512-6GsWBsJHEb3sYw15mbLrcbslAVY45pkzjJYTKYKCXv88z7srAF0VEW0q+oXKsl58tCbqooplInahXFg8Yo1m4w==
-  dependencies:
-    "@types/web-bluetooth" "^0.0.16"
-    "@vueuse/metadata" "9.5.0"
-    "@vueuse/shared" "9.5.0"
-    vue-demi "*"
-
-"@vueuse/core@^9.3.1", "@vueuse/core@^9.5.0":
-  version "9.5.0"
-  resolved "https://registry.npmmirror.com/@vueuse/core/-/core-9.5.0.tgz"
   integrity sha512-6GsWBsJHEb3sYw15mbLrcbslAVY45pkzjJYTKYKCXv88z7srAF0VEW0q+oXKsl58tCbqooplInahXFg8Yo1m4w==
   dependencies:
     "@types/web-bluetooth" "^0.0.16"
@@ -7199,10 +7189,10 @@ vuepress-plugin-copy-code2@2.0.0-beta.125:
     vuepress-plugin-sass-palette "2.0.0-beta.125"
     vuepress-shared "2.0.0-beta.125"
 
-vuepress-plugin-md-enhance@2.0.0-beta.125:
-  version "2.0.0-beta.125"
-  resolved "https://registry.npmmirror.com/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-2.0.0-beta.125.tgz#7c52532f602ae9e3df5a747197c325aeb8bb2b01"
-  integrity sha512-rBx27hzgRHPB0gM1taN5fD0bw079n7RXQv6VcnGPyIZEWxAnuIere6BW9nnGkqT9b5/tfbeCZOATRLjChG9Qnw==
+vuepress-plugin-md-enhance@2.0.0-beta.126:
+  version "2.0.0-beta.126"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-2.0.0-beta.126.tgz#8d06758f86f98e7ccf3d43b452aceb40dd6ec2b6"
+  integrity sha512-jVSKWiwODmCyZ2T4zjHOQgskJgXi0vES+irycX3CoNaOdVrLPmtU/OUiq7fOaizY4ETwiFksJPCj7XxcT95OtA==
   dependencies:
     "@babel/core" "*"
     "@mermaid-js/mermaid-mindmap" "^9.2.2"
@@ -7225,8 +7215,8 @@ vuepress-plugin-md-enhance@2.0.0-beta.125:
     reveal.js "^4.4.0"
     vue "^3.2.45"
     vue-router "^4.1.6"
-    vuepress-plugin-sass-palette "2.0.0-beta.125"
-    vuepress-shared "2.0.0-beta.125"
+    vuepress-plugin-sass-palette "2.0.0-beta.126"
+    vuepress-shared "2.0.0-beta.126"
 
 vuepress-plugin-sass-palette@2.0.0-beta.125:
   version "2.0.0-beta.125"
@@ -7237,6 +7227,16 @@ vuepress-plugin-sass-palette@2.0.0-beta.125:
     chokidar "^3.5.3"
     sass "^1.56.1"
     vuepress-shared "2.0.0-beta.125"
+
+vuepress-plugin-sass-palette@2.0.0-beta.126:
+  version "2.0.0-beta.126"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.126.tgz#7ff282e7780312896a0e677ecac908b81ac1fafc"
+  integrity sha512-fmRxLSg1wTJgLqYyEfwrRb0oWKKFHHHZ8XenNTOlU5LpoVDYqRfR1qBq7u9I0Yl+mb9uMWFYSd8VODRssM6wkg==
+  dependencies:
+    "@vuepress/utils" "2.0.0-beta.53"
+    chokidar "^3.5.3"
+    sass "^1.56.1"
+    vuepress-shared "2.0.0-beta.126"
 
 vuepress-plugin-typescript@0.3.1:
   version "0.3.1"
@@ -7250,6 +7250,23 @@ vuepress-shared@2.0.0-beta.125:
   version "2.0.0-beta.125"
   resolved "https://registry.npmmirror.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.125.tgz#9e1b5e3231122c58421380373c016c592f1070e4"
   integrity sha512-Mv35ksEGjkgz1FZZ8msfS31hqe/xp4EunM3XFJmgTIYWscUHdSblHc8eBAHUwyuOaluJZR9NHw/H4e3raDqZsg==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.53"
+    "@vuepress/plugin-git" "2.0.0-beta.53"
+    "@vuepress/shared" "2.0.0-beta.53"
+    "@vuepress/utils" "2.0.0-beta.53"
+    dayjs "^1.11.6"
+    execa "^6.1.0"
+    fflate "^0.7.4"
+    ora "^6.1.2"
+    striptags "3.2.0"
+    vue "^3.2.45"
+    vue-router "^4.1.6"
+
+vuepress-shared@2.0.0-beta.126:
+  version "2.0.0-beta.126"
+  resolved "https://registry.npmmirror.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.126.tgz#1d878207386f9e7b2f650b696cc1933897b66dc8"
+  integrity sha512-UiGHUQyrqNsIe3oZVkYLypEKgKCVMVdT+KTHUjpGxK1maIsXIKD/l++u85e9Nv1cVqWXtSPEU3Rj77I7JkXhEg==
   dependencies:
     "@vuepress/client" "2.0.0-beta.53"
     "@vuepress/plugin-git" "2.0.0-beta.53"
