@@ -8,8 +8,26 @@ const require = createRequire(import.meta.url)
 export interface CustomConfig {
   configName: string
   configFilePath: string
-  config: {
-    app: UserConfig
+  config: CustomConfigOptions
+}
+export interface CustomConfigOptions {
+  app?: Pick<
+    UserConfig,
+    | 'title'
+    | 'description'
+    | 'base'
+    | 'lang'
+    | 'public'
+    | 'pagePatterns'
+    | 'port'
+    | 'open'
+    | 'locales'
+    | 'markdown'
+    | 'head'
+    | 'define'
+  >
+  extendConfig?: {
+    [key: string]: any
   }
 }
 
@@ -36,4 +54,4 @@ const custom = process.env.CONFIG_NAME ? getCustomConfig(process.env.CONFIG_NAME
 
 export const defaultCustomConfig = { ...getCustomConfig('default')! }
 
-export default custom ? _.merge<CustomConfig, CustomConfig>(defaultCustomConfig, custom) : defaultCustomConfig
+export default custom

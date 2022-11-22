@@ -22,6 +22,22 @@
 [sg-image]: https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=flat-square
 [tag-image]: https://img.shields.io/github/tag/funnyzak/vp-starter.svg
 
+
+## Toc
+
+- [VP Starter](#vp-starter)
+  - [Toc](#toc)
+  - [Features](#features)
+  - [Preview](#preview)
+  - [Quick Start](#quick-start)
+  - [Structure](#structure)
+  - [FAQ](#faq)
+    - [如何进行自定义配置进行开发或构建？](#如何进行自定义配置进行开发或构建)
+    - [自定义配置支持哪些变量？](#自定义配置支持哪些变量)
+  - [Reference](#reference)
+  - [Contribution](#contribution)
+  - [License](#license)
+
 ## Features
 
 - TypeScript 支持。
@@ -142,6 +158,74 @@ npx cross-env CONFIG_NAME=default yarn docs:build
      }
    }
    ```
+
+### 自定义配置支持哪些变量？
+
+自定义配置可参考如下声明：
+
+```ts
+export interface CustomConfigOptions {
+  app?: Pick<
+    UserConfig,
+    | 'title'
+    | 'description'
+    | 'base'
+    | 'lang'
+    | 'public'
+    | 'pagePatterns'
+    | 'port'
+    | 'open'
+    | 'locales'
+    | 'markdown'
+    | 'head'
+    | 'define'
+  >
+  extendConfig?: {
+    [key: string]: any
+  }
+}
+```
+
+Demo Config File:
+
+```json
+{
+  "app": {
+    "title": "app custom title",
+    "description": "app custom description",
+    "base": "/app_custom/",
+    "dest": "dist/app_custom",
+    "lang": "zh-CN",
+    "pagePatterns": ["**/*.md"],
+    "port": 8080,
+    "open": true,
+    "define": {
+      "___HELLO___": "hello world"
+    },
+    "locales": {
+      "/": {
+        "lang": "en-US",
+        "title": "app custom title",
+        "description": "app custom description"
+      },
+      "/zh/": {
+        "lang": "zh-CN",
+        "title": "app custom title",
+        "description": "app custom description"
+      }
+    },
+    "head": [
+      [
+        "link",
+        {
+          "rel": "icon",
+          "href": "/favicon.ico"
+        }
+      ]
+    ]
+  }
+}
+```
 
 ## Reference
 
