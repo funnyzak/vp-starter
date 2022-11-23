@@ -54,7 +54,7 @@
     "eslint-plugin-vue": "9.7.0",
     "husky": "8.0.2",
     "lint-staged": "13.0.3",
-    "npm-check-updates": "16.4.1",
+    "npm-check-updates": "16.4.3",
     "pangu": "4.0.7",
     "prettier": "2.7.1",
     "prettier-config-vuepress": "4.0.0",
