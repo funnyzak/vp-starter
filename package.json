@@ -37,7 +37,7 @@
   "private": false,
   "devDependencies": {
     "@types/glob": "8.0.0",
-    "@types/lodash": "4.14.190",
+    "@types/lodash": "4.14.191",
     "@typescript-eslint/eslint-plugin": "5.45.0",
     "@typescript-eslint/parser": "5.45.0",
     "@vuepress/plugin-docsearch": "2.0.0-beta.53",
