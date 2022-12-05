@@ -38,8 +38,8 @@
   "devDependencies": {
     "@types/glob": "8.0.0",
     "@types/lodash": "4.14.191",
-    "@typescript-eslint/eslint-plugin": "5.45.0",
-    "@typescript-eslint/parser": "5.45.0",
+    "@typescript-eslint/eslint-plugin": "5.45.1",
+    "@typescript-eslint/parser": "5.45.1",
     "@vuepress/plugin-docsearch": "2.0.0-beta.53",
     "@vuepress/plugin-google-analytics": "2.0.0-beta.53",
     "@vuepress/plugin-prismjs": "2.0.0-beta.53",
