@@ -1106,22 +1106,22 @@
   resolved "https://registry.npmmirror.com/@braintree/sanitize-url/-/sanitize-url-6.0.2.tgz"
   integrity sha512-Tbsj02wXCbqGmzdnXNk0SOF19ChhRU70BsroIi4Pm6Ehp56in6vch94mfbdQ17DozxkL3BAVjbZ4Qc1a0HFRAg==
 
-"@docsearch/css@3.3.0", "@docsearch/css@^3.2.2":
+"@docsearch/css@3.3.0", "@docsearch/css@^3.3.0":
   version "3.3.0"
-  resolved "https://registry.npmmirror.com/@docsearch/css/-/css-3.3.0.tgz"
+  resolved "https://registry.npmmirror.com/@docsearch/css/-/css-3.3.0.tgz#d698e48302d12240d7c2f7452ccb2d2239a8cd80"
   integrity sha512-rODCdDtGyudLj+Va8b6w6Y85KE85bXRsps/R4Yjwt5vueXKXZQKYw0aA9knxLBT6a/bI/GMrAcmCR75KYOM6hg==
 
-"@docsearch/js@^3.2.2":
+"@docsearch/js@^3.3.0":
   version "3.3.0"
-  resolved "https://registry.npmmirror.com/@docsearch/js/-/js-3.3.0.tgz"
+  resolved "https://registry.npmmirror.com/@docsearch/js/-/js-3.3.0.tgz#c8f614b722cc8a6375e83f9c27557e9398d6a4d4"
   integrity sha512-oFXWRPNvPxAzBhnFJ9UCFIYZiQNc3Yrv6912nZHw/UIGxsyzKpNRZgHq8HDk1niYmOSoLKtVFcxkccpQmYGFyg==
   dependencies:
     "@docsearch/react" "3.3.0"
     preact "^10.0.0"
 
-"@docsearch/react@3.3.0", "@docsearch/react@^3.2.2":
+"@docsearch/react@3.3.0", "@docsearch/react@^3.3.0":
   version "3.3.0"
-  resolved "https://registry.npmmirror.com/@docsearch/react/-/react-3.3.0.tgz"
+  resolved "https://registry.npmmirror.com/@docsearch/react/-/react-3.3.0.tgz#b8ac8e7f49b9bf2f96d34c24bc1cfd097ec0eead"
   integrity sha512-fhS5adZkae2SSdMYEMVg6pxI5a/cE+tW16ki1V0/ur4Fdok3hBRkmN/H8VvlXnxzggkQIIRIVvYPn00JPjen3A==
   dependencies:
     "@algolia/autocomplete-core" "1.7.2"
@@ -1944,20 +1944,20 @@
     markdown-it "^13.0.1"
     markdown-it-container "^3.0.0"
 
-"@vuepress/plugin-docsearch@2.0.0-beta.53":
-  version "2.0.0-beta.53"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-docsearch/-/plugin-docsearch-2.0.0-beta.53.tgz"
-  integrity sha512-U5s3gHo9989fGhMq/wUp85c0GOuajVOFMbf2bH5NzZIZ2j70vwJubfqc3Pb496DOKSu6gEPYZCRzNHkzgOPIAg==
+"@vuepress/plugin-docsearch@2.0.0-beta.54":
+  version "2.0.0-beta.54"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-docsearch/-/plugin-docsearch-2.0.0-beta.54.tgz#d9c4aba83f045f656214752d3b36c0d37e5ebada"
+  integrity sha512-f2DWte7IgtRo2WIXCzjera+6Nn+s1qRb/upA2lUHOJoJhRF7lQ72tWhGPVPHDK5GCPeC8xAhemr1/bImeqYv3g==
   dependencies:
-    "@docsearch/css" "^3.2.2"
-    "@docsearch/js" "^3.2.2"
-    "@docsearch/react" "^3.2.2"
-    "@vuepress/client" "2.0.0-beta.53"
-    "@vuepress/core" "2.0.0-beta.53"
-    "@vuepress/shared" "2.0.0-beta.53"
-    "@vuepress/utils" "2.0.0-beta.53"
+    "@docsearch/css" "^3.3.0"
+    "@docsearch/js" "^3.3.0"
+    "@docsearch/react" "^3.3.0"
+    "@vuepress/client" "2.0.0-beta.54"
+    "@vuepress/core" "2.0.0-beta.54"
+    "@vuepress/shared" "2.0.0-beta.54"
+    "@vuepress/utils" "2.0.0-beta.54"
     ts-debounce "^4.0.0"
-    vue "^3.2.41"
+    vue "^3.2.45"
     vue-router "^4.1.6"
 
 "@vuepress/plugin-external-link-icon@2.0.0-beta.54":
