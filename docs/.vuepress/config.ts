@@ -91,7 +91,7 @@ const config = defineUserConfig({
   }),
 
   // site-level locales config
-  locales: custom?.config.app?.locales ?? {
+  locales: custom?.config?.app?.locales ?? {
     '/': {
       lang: 'en-US',
       title: 'VP Starter',
