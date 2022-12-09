@@ -201,6 +201,7 @@ const config = defineUserConfig({
 
     locales: {
       '/': {
+        logoDark: null,
         colorMode: 'auto',
         colorModeSwitch: true,
         home: '/',
@@ -211,7 +212,6 @@ const config = defineUserConfig({
         editLinkText: 'Edit this page on GitHub'
       },
       '/zh/': {
-        logoDark: null,
         colorMode: 'auto',
         colorModeSwitch: true,
         home: '/',
