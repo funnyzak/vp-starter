@@ -85,9 +85,6 @@
       "prettier --write"
     ]
   },
-  "engines": {
-    "node": ">=14.18.0"
-  },
   "bugs": {
     "url": "https://github.com/funnyzak/vp-starter/issues"
   },
