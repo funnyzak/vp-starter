@@ -1993,12 +1993,12 @@
     vue "^3.2.41"
     vue-router "^4.1.6"
 
-"@vuepress/plugin-shiki@2.0.0-beta.53":
-  version "2.0.0-beta.53"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-shiki/-/plugin-shiki-2.0.0-beta.53.tgz"
-  integrity sha512-Bpcv7GZyvj1mk1PoYVJAB42B+4JuKZBho4iqfHGtPhqLg5jcVLgd/p4OscC7fTL2S94ubES4q8G1WXu8JGtJuQ==
+"@vuepress/plugin-shiki@2.0.0-beta.54":
+  version "2.0.0-beta.54"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-shiki/-/plugin-shiki-2.0.0-beta.54.tgz#3154ffc96a74319e7fbd89a18008432d6e72ce35"
+  integrity sha512-+ZoxgIkqUiIzh+6eD+3GGXeUIlvbYiDR4wJagsArTPUEQCVKUC5yxUGznefE3+rVgMUvqURR22VSXVqySV0ADw==
   dependencies:
-    "@vuepress/core" "2.0.0-beta.53"
+    "@vuepress/core" "2.0.0-beta.54"
     shiki "^0.11.1"
 
 "@vuepress/plugin-theme-data@2.0.0-beta.53":
