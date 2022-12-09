@@ -1981,14 +1981,14 @@
     "@vuepress/utils" "2.0.0-beta.54"
     execa "^6.1.0"
 
-"@vuepress/plugin-google-analytics@2.0.0-beta.53":
-  version "2.0.0-beta.53"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-2.0.0-beta.53.tgz"
-  integrity sha512-W0tLmO896zHMNPCAqQnZMdYsp8onqPKdSMTSNl4kFHe0jofZjhjmbP1Ie4O781JJDYwnTnY5aHC4M/0LJRbQuQ==
+"@vuepress/plugin-google-analytics@2.0.0-beta.54":
+  version "2.0.0-beta.54"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-2.0.0-beta.54.tgz#90a8175a2f24e02e5b91df729c27ae17fe46f078"
+  integrity sha512-QG1Hxnkk5aePJFKjyYEjsvMcglRvSpUcMfiUPH7ny30Z1SfsM9iGFk+AD1QJWsk2lrCp4Cx5PZM+TK3cBDMK7A==
   dependencies:
-    "@vuepress/client" "2.0.0-beta.53"
-    "@vuepress/core" "2.0.0-beta.53"
-    "@vuepress/utils" "2.0.0-beta.53"
+    "@vuepress/client" "2.0.0-beta.54"
+    "@vuepress/core" "2.0.0-beta.54"
+    "@vuepress/utils" "2.0.0-beta.54"
 
 "@vuepress/plugin-medium-zoom@2.0.0-beta.54":
   version "2.0.0-beta.54"
@@ -2029,39 +2029,39 @@
     "@vuepress/core" "2.0.0-beta.54"
     prismjs "^1.29.0"
 
-"@vuepress/plugin-pwa@2.0.0-beta.53":
-  version "2.0.0-beta.53"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-pwa/-/plugin-pwa-2.0.0-beta.53.tgz"
-  integrity sha512-40egkM0NGRgRGcwhTkpTM+3iPY7T8Az0MXpdlbsTABYPcgT+IcQ4cJykHnG7h4kfASGpGqM/RxkCClhcKV1sgA==
+"@vuepress/plugin-pwa@2.0.0-beta.54":
+  version "2.0.0-beta.54"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-pwa/-/plugin-pwa-2.0.0-beta.54.tgz#a597fd684cd79c057e764c0f2284ab9cb5fdccea"
+  integrity sha512-iOivr9cCX1UxE6T7by0TTA17VeuwsKvsA1vC+qcPaDTU4U14ctFye7pFFaTFtYW6fLZNG0txGvW0uEjwCwyCNg==
   dependencies:
-    "@vuepress/client" "2.0.0-beta.53"
-    "@vuepress/core" "2.0.0-beta.53"
-    "@vuepress/utils" "2.0.0-beta.53"
+    "@vuepress/client" "2.0.0-beta.54"
+    "@vuepress/core" "2.0.0-beta.54"
+    "@vuepress/utils" "2.0.0-beta.54"
     mitt "^3.0.0"
     register-service-worker "^1.7.2"
-    vue "^3.2.41"
+    vue "^3.2.45"
     workbox-build "^6.5.4"
 
-"@vuepress/plugin-register-components@2.0.0-beta.53":
-  version "2.0.0-beta.53"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-register-components/-/plugin-register-components-2.0.0-beta.53.tgz"
-  integrity sha512-LRp4kWuKDmN3I2w6rzlQVSXenbZmJCCK9PzJs3zP5oGbcOdQi3ubJaKd5PYNC+YC+gxz/zvQQlU3i6VVsPmDiA==
+"@vuepress/plugin-register-components@2.0.0-beta.54":
+  version "2.0.0-beta.54"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-register-components/-/plugin-register-components-2.0.0-beta.54.tgz#8a1338ce6bc5d532fe4d00ae62e5217ca54fb27b"
+  integrity sha512-7lxGlNQBjCWgFbKbIoeFOnyqm/bpc3mc8hTwtxsX/RniSoIAC4MhEnJaZnL7WMtNeBoYAeM68TXPLjnLUMSDqw==
   dependencies:
-    "@vuepress/core" "2.0.0-beta.53"
-    "@vuepress/utils" "2.0.0-beta.53"
+    "@vuepress/core" "2.0.0-beta.54"
+    "@vuepress/utils" "2.0.0-beta.54"
     chokidar "^3.5.3"
 
-"@vuepress/plugin-search@2.0.0-beta.53":
-  version "2.0.0-beta.53"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-search/-/plugin-search-2.0.0-beta.53.tgz"
-  integrity sha512-x9FScY9aLTzlp6D5wO1d0kDkAO9TkzLwGueNx5F13Nkq589weq8uTTiNRA2oDM0l+H9BF6vDJ+XJlzE5W3u9gQ==
+"@vuepress/plugin-search@2.0.0-beta.54":
+  version "2.0.0-beta.54"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-search/-/plugin-search-2.0.0-beta.54.tgz#b820430bc7530f1f9a4bc63988e5ce8228e4432a"
+  integrity sha512-VngrYTOeQU2Db1TPqVAuogwGGIhF0iWqZU9Lks15Ky8p89y+FgIY7lJCg815tdaz7usJR98ulvPEMvDMURcmIw==
   dependencies:
-    "@vuepress/client" "2.0.0-beta.53"
-    "@vuepress/core" "2.0.0-beta.53"
-    "@vuepress/shared" "2.0.0-beta.53"
-    "@vuepress/utils" "2.0.0-beta.53"
+    "@vuepress/client" "2.0.0-beta.54"
+    "@vuepress/core" "2.0.0-beta.54"
+    "@vuepress/shared" "2.0.0-beta.54"
+    "@vuepress/utils" "2.0.0-beta.54"
     chokidar "^3.5.3"
-    vue "^3.2.41"
+    vue "^3.2.45"
     vue-router "^4.1.6"
 
 "@vuepress/plugin-shiki@2.0.0-beta.54":
