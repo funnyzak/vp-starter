@@ -48,7 +48,7 @@
     "@vuepress/plugin-search": "2.0.0-beta.54",
     "@vuepress/plugin-shiki": "2.0.0-beta.54",
     "@vuepress/client": "2.0.0-beta.54",
-    "@vuepress/core": "2.0.0-beta.54",
+    "@vuepress/core": "2.0.0-beta.58",
     "cross-env": "7.0.3",
     "eslint": "8.29.0",
     "eslint-config-prettier": "8.5.0",
