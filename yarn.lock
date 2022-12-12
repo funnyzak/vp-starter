@@ -1832,6 +1832,16 @@
     vue "^3.2.45"
     vue-router "^4.1.6"
 
+"@vuepress/client@2.0.0-beta.58":
+  version "2.0.0-beta.58"
+  resolved "https://registry.npmmirror.com/@vuepress/client/-/client-2.0.0-beta.58.tgz#d2f5e500a11740b71479f0d2b970522d59366177"
+  integrity sha512-CkJtfARRNCuA5pU7pl47K2jODPE8g38VD4HkirHenjFFwJkh6lAHhZoAsy4CP6eCOfPEfHDGGWrTG5LN/Q+gww==
+  dependencies:
+    "@vue/devtools-api" "^6.4.5"
+    "@vuepress/shared" "2.0.0-beta.58"
+    vue "^3.2.45"
+    vue-router "^4.1.6"
+
 "@vuepress/core@2.0.0-beta.54":
   version "2.0.0-beta.54"
   resolved "https://registry.npmmirror.com/@vuepress/core/-/core-2.0.0-beta.54.tgz#bb51910876ef2f9edb4af714a5c0e14db8b6a47b"
@@ -1841,6 +1851,17 @@
     "@vuepress/markdown" "2.0.0-beta.54"
     "@vuepress/shared" "2.0.0-beta.54"
     "@vuepress/utils" "2.0.0-beta.54"
+    vue "^3.2.45"
+
+"@vuepress/core@2.0.0-beta.58":
+  version "2.0.0-beta.58"
+  resolved "https://registry.npmmirror.com/@vuepress/core/-/core-2.0.0-beta.58.tgz#d6906a27713c42902f20bcf71890b953cafd7be3"
+  integrity sha512-xInLgETdDaWJKInEsMydAg82RttSBO56zCS0GfR4+C8QcCEQgVz+JiDo842WjbEIfCt/ZqacRRdecxW0nlj8tQ==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.58"
+    "@vuepress/markdown" "2.0.0-beta.58"
+    "@vuepress/shared" "2.0.0-beta.58"
+    "@vuepress/utils" "2.0.0-beta.58"
     vue "^3.2.45"
 
 "@vuepress/markdown@2.0.0-beta.54":
@@ -1860,6 +1881,28 @@
     "@types/markdown-it-emoji" "^2.0.2"
     "@vuepress/shared" "2.0.0-beta.54"
     "@vuepress/utils" "2.0.0-beta.54"
+    markdown-it "^13.0.1"
+    markdown-it-anchor "^8.6.5"
+    markdown-it-emoji "^2.0.2"
+    mdurl "^1.0.1"
+
+"@vuepress/markdown@2.0.0-beta.58":
+  version "2.0.0-beta.58"
+  resolved "https://registry.npmmirror.com/@vuepress/markdown/-/markdown-2.0.0-beta.58.tgz#a0fcb05a197462c72bc6f2abbf4be77c2c08c457"
+  integrity sha512-d5d573sNBiKDutVfwkAozdvrnB0xr5FqF0/0FAIBwGB3GFZpLdOsglmKcHDwJadDgMBTL4qvB8l4od2av6eDjw==
+  dependencies:
+    "@mdit-vue/plugin-component" "^0.11.1"
+    "@mdit-vue/plugin-frontmatter" "^0.11.1"
+    "@mdit-vue/plugin-headers" "^0.11.1"
+    "@mdit-vue/plugin-sfc" "^0.11.1"
+    "@mdit-vue/plugin-title" "^0.11.1"
+    "@mdit-vue/plugin-toc" "^0.11.1"
+    "@mdit-vue/shared" "^0.11.0"
+    "@mdit-vue/types" "^0.11.0"
+    "@types/markdown-it" "^12.2.3"
+    "@types/markdown-it-emoji" "^2.0.2"
+    "@vuepress/shared" "2.0.0-beta.58"
+    "@vuepress/utils" "2.0.0-beta.58"
     markdown-it "^13.0.1"
     markdown-it-anchor "^8.6.5"
     markdown-it-emoji "^2.0.2"
@@ -2008,15 +2051,15 @@
     "@vuepress/utils" "2.0.0-beta.54"
     chokidar "^3.5.3"
 
-"@vuepress/plugin-search@2.0.0-beta.54":
-  version "2.0.0-beta.54"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-search/-/plugin-search-2.0.0-beta.54.tgz#b820430bc7530f1f9a4bc63988e5ce8228e4432a"
-  integrity sha512-VngrYTOeQU2Db1TPqVAuogwGGIhF0iWqZU9Lks15Ky8p89y+FgIY7lJCg815tdaz7usJR98ulvPEMvDMURcmIw==
+"@vuepress/plugin-search@2.0.0-beta.58":
+  version "2.0.0-beta.58"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-search/-/plugin-search-2.0.0-beta.58.tgz#3c753bf1d5937a3eedd1c4b9f661e5241a999c0b"
+  integrity sha512-1tdGj9/hgOmYBN3hzWsAFecW3yLOxtE2MHoNNL/d+cyZsO2J670222siluqd/M4Vmg+071auvcjjf2ADN9OB5Q==
   dependencies:
-    "@vuepress/client" "2.0.0-beta.54"
-    "@vuepress/core" "2.0.0-beta.54"
-    "@vuepress/shared" "2.0.0-beta.54"
-    "@vuepress/utils" "2.0.0-beta.54"
+    "@vuepress/client" "2.0.0-beta.58"
+    "@vuepress/core" "2.0.0-beta.58"
+    "@vuepress/shared" "2.0.0-beta.58"
+    "@vuepress/utils" "2.0.0-beta.58"
     chokidar "^3.5.3"
     vue "^3.2.45"
     vue-router "^4.1.6"
@@ -2052,6 +2095,14 @@
   version "2.0.0-beta.54"
   resolved "https://registry.npmmirror.com/@vuepress/shared/-/shared-2.0.0-beta.54.tgz#1ff78ffe52f0043ec9617d835e18ff125eb5c3ef"
   integrity sha512-073MHhDu4V147DcQ5W5uI6XOtGimA6Vho9m5GgeTWGAbKWYbQrC6YcWg4CWOoEqUw79/t6aWxkkgmvTt++osBw==
+  dependencies:
+    "@mdit-vue/types" "^0.11.0"
+    "@vue/shared" "^3.2.45"
+
+"@vuepress/shared@2.0.0-beta.58":
+  version "2.0.0-beta.58"
+  resolved "https://registry.npmmirror.com/@vuepress/shared/-/shared-2.0.0-beta.58.tgz#67e9e9f0cff731af780fd716e5fa490b6de6c6e6"
+  integrity sha512-f6qEwhFz2YyIxVxD1NqIp2Dwos/ioY+hSFFM4d7Io124WhjYsVzvBY1v6uXVafu2crpbkiGfCcLeDT7b6fw8HQ==
   dependencies:
     "@mdit-vue/types" "^0.11.0"
     "@vue/shared" "^3.2.45"
@@ -2106,6 +2157,23 @@
     "@types/fs-extra" "^9.0.13"
     "@types/hash-sum" "^1.0.0"
     "@vuepress/shared" "2.0.0-beta.54"
+    debug "^4.3.4"
+    fs-extra "^11.1.0"
+    globby "^13.1.2"
+    hash-sum "^2.0.0"
+    ora "^6.1.2"
+    picocolors "^1.0.0"
+    upath "^2.0.1"
+
+"@vuepress/utils@2.0.0-beta.58":
+  version "2.0.0-beta.58"
+  resolved "https://registry.npmmirror.com/@vuepress/utils/-/utils-2.0.0-beta.58.tgz#2619c46a79fb089d97311d5a63970b6fc5410f1a"
+  integrity sha512-jj/qf3a6syYJ7j6i9zo3EmIT1SDcHhRbuH/TFCqXrKeUOQFFhOGYwbQtyISM9/At9UeCLE/rz1Z+A868FQpczQ==
+  dependencies:
+    "@types/debug" "^4.1.7"
+    "@types/fs-extra" "^9.0.13"
+    "@types/hash-sum" "^1.0.0"
+    "@vuepress/shared" "2.0.0-beta.58"
     debug "^4.3.4"
     fs-extra "^11.1.0"
     globby "^13.1.2"
