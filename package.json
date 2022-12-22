@@ -40,7 +40,7 @@
     "@types/lodash": "4.14.191",
     "@typescript-eslint/eslint-plugin": "5.47.0",
     "@typescript-eslint/parser": "5.47.0",
-    "@vuepress/client": "2.0.0-beta.59",
+    "@vuepress/client": "2.0.0-beta.50-pre.1",
     "@vuepress/core": "2.0.0-beta.59",
     "@vuepress/plugin-docsearch": "2.0.0-beta.59",
     "@vuepress/plugin-google-analytics": "2.0.0-beta.59",
