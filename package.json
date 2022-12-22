@@ -49,7 +49,7 @@
     "@vuepress/plugin-register-components": "2.0.0-beta.59",
     "@vuepress/plugin-search": "2.0.0-beta.59",
     "@vuepress/plugin-shiki": "2.0.0-beta.59",
-    "@vuepress/utils": "2.0.0-beta.59",
+    "@vuepress/utils": "2.0.0-beta.50-pre.1",
     "@vueuse/core": "9.8.2",
     "cross-env": "7.0.3",
     "eslint": "8.30.0",
