@@ -56,7 +56,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-define-config": "1.12.0",
     "eslint-plugin-vue": "9.8.0",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "lint-staged": "13.1.0",
     "lodash": "4.17.21",
     "npm-check-updates": "16.6.2",
