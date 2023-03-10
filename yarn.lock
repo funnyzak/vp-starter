@@ -3109,9 +3109,10 @@ eslint-config-prettier@8.5.0:
   version "8.5.0"
   resolved "https://registry.npmmirror.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz"
 
-eslint-define-config@1.12.0:
-  version "1.12.0"
-  resolved "https://registry.npmmirror.com/eslint-define-config/-/eslint-define-config-1.12.0.tgz"
+eslint-define-config@1.16.0:
+  version "1.16.0"
+  resolved "https://registry.npmmirror.com/eslint-define-config/-/eslint-define-config-1.16.0.tgz#845b23534f33159997e321b2073c0c198bdc4892"
+  integrity sha512-0gMi2IIDVDNAcy0nDaRss41cBTRMFFAp83WBcGIPi5S7uMOLhNmvbSPozvOoUxv5dIRuGV6E6l+HUnEoFyEbFg==
 
 eslint-plugin-vue@9.8.0:
   version "9.8.0"
