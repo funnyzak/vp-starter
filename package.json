@@ -59,7 +59,7 @@
     "husky": "8.0.2",
     "lint-staged": "13.1.0",
     "lodash": "4.17.21",
-    "npm-check-updates": "16.6.2",
+    "npm-check-updates": "16.7.13",
     "pangu": "4.0.7",
     "prettier": "2.8.4",
     "prettier-config-vuepress": "4.0.0",
