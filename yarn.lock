@@ -3105,9 +3105,9 @@ escape-string-regexp@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmmirror.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
 
-eslint-config-prettier@8.5.0:
-  version "8.5.0"
-  resolved "https://registry.npmmirror.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz"
+eslint-config-prettier@8.7.0:
+  version "8.7.0"
+  resolved "https://registry.npmmirror.com/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz#f1cc58a8afebc50980bd53475451df146c13182d"
 
 eslint-define-config@1.12.0:
   version "1.12.0"
