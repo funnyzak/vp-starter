@@ -1852,7 +1852,16 @@
     picocolors "^1.0.0"
     upath "^2.0.1"
 
-"@vueuse/core@9.8.2", "@vueuse/core@^9.6.0":
+"@vueuse/core@10.0.2":
+  version "10.0.2"
+  resolved "https://registry.npmmirror.com/@vueuse/core/-/core-10.0.2.tgz#d2cd237e19bda278ae8d4f2e4a9e2e8c273bdcef"
+  dependencies:
+    "@types/web-bluetooth" "^0.0.16"
+    "@vueuse/metadata" "10.0.2"
+    "@vueuse/shared" "10.0.2"
+    vue-demi ">=0.14.0"
+
+"@vueuse/core@^9.6.0":
   version "9.8.2"
   resolved "https://registry.npmmirror.com/@vueuse/core/-/core-9.8.2.tgz"
   dependencies:
@@ -1861,9 +1870,19 @@
     "@vueuse/shared" "9.8.2"
     vue-demi "*"
 
+"@vueuse/metadata@10.0.2":
+  version "10.0.2"
+  resolved "https://registry.npmmirror.com/@vueuse/metadata/-/metadata-10.0.2.tgz#538bfe28d60335456084e783508361e07ef1e613"
+
 "@vueuse/metadata@9.8.2":
   version "9.8.2"
   resolved "https://registry.npmmirror.com/@vueuse/metadata/-/metadata-9.8.2.tgz"
+
+"@vueuse/shared@10.0.2":
+  version "10.0.2"
+  resolved "https://registry.npmmirror.com/@vueuse/shared/-/shared-10.0.2.tgz#82a90e22a0809428e0710206bb7761acaa057ddf"
+  dependencies:
+    vue-demi ">=0.14.0"
 
 "@vueuse/shared@9.8.2":
   version "9.8.2"
@@ -5958,9 +5977,9 @@ vscode-textmate@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmmirror.com/vscode-textmate/-/vscode-textmate-6.0.0.tgz"
 
-vue-demi@*:
-  version "0.13.11"
-  resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.13.11.tgz"
+vue-demi@*, vue-demi@>=0.14.0:
+  version "0.14.0"
+  resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.14.0.tgz#dcfd9a9cf9bb62ada1582ec9042372cf67ca6190"
 
 vue-eslint-parser@^9.0.1:
   version "9.1.0"
