@@ -1423,13 +1423,13 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@5.47.0":
-  version "5.47.0"
-  resolved "https://registry.npmmirror.com/@typescript-eslint/parser/-/parser-5.47.0.tgz"
+"@typescript-eslint/parser@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.npmmirror.com/@typescript-eslint/parser/-/parser-5.59.2.tgz#c2c443247901d95865b9f77332d9eee7c55655e8"
   dependencies:
-    "@typescript-eslint/scope-manager" "5.47.0"
-    "@typescript-eslint/types" "5.47.0"
-    "@typescript-eslint/typescript-estree" "5.47.0"
+    "@typescript-eslint/scope-manager" "5.59.2"
+    "@typescript-eslint/types" "5.59.2"
+    "@typescript-eslint/typescript-estree" "5.59.2"
     debug "^4.3.4"
 
 "@typescript-eslint/scope-manager@5.47.0":
@@ -1438,6 +1438,13 @@
   dependencies:
     "@typescript-eslint/types" "5.47.0"
     "@typescript-eslint/visitor-keys" "5.47.0"
+
+"@typescript-eslint/scope-manager@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.npmmirror.com/@typescript-eslint/scope-manager/-/scope-manager-5.59.2.tgz#f699fe936ee4e2c996d14f0fdd3a7da5ba7b9a4c"
+  dependencies:
+    "@typescript-eslint/types" "5.59.2"
+    "@typescript-eslint/visitor-keys" "5.59.2"
 
 "@typescript-eslint/type-utils@5.47.0":
   version "5.47.0"
@@ -1452,12 +1459,28 @@
   version "5.47.0"
   resolved "https://registry.npmmirror.com/@typescript-eslint/types/-/types-5.47.0.tgz"
 
+"@typescript-eslint/types@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.npmmirror.com/@typescript-eslint/types/-/types-5.59.2.tgz#b511d2b9847fe277c5cb002a2318bd329ef4f655"
+
 "@typescript-eslint/typescript-estree@5.47.0":
   version "5.47.0"
   resolved "https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.47.0.tgz"
   dependencies:
     "@typescript-eslint/types" "5.47.0"
     "@typescript-eslint/visitor-keys" "5.47.0"
+    debug "^4.3.4"
+    globby "^11.1.0"
+    is-glob "^4.0.3"
+    semver "^7.3.7"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/typescript-estree@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.59.2.tgz#6e2fabd3ba01db5d69df44e0b654c0b051fe9936"
+  dependencies:
+    "@typescript-eslint/types" "5.59.2"
+    "@typescript-eslint/visitor-keys" "5.59.2"
     debug "^4.3.4"
     globby "^11.1.0"
     is-glob "^4.0.3"
@@ -1482,6 +1505,13 @@
   resolved "https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.47.0.tgz"
   dependencies:
     "@typescript-eslint/types" "5.47.0"
+    eslint-visitor-keys "^3.3.0"
+
+"@typescript-eslint/visitor-keys@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.59.2.tgz#37a419dc2723a3eacbf722512b86d6caf7d3b750"
+  dependencies:
+    "@typescript-eslint/types" "5.59.2"
     eslint-visitor-keys "^3.3.0"
 
 "@vitejs/plugin-vue@^4.0.0":
