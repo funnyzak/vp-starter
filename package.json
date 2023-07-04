@@ -46,7 +46,7 @@
     "@vuepress/plugin-google-analytics": "2.0.0-beta.59",
     "@vuepress/plugin-prismjs": "2.0.0-beta.59",
     "@vuepress/plugin-pwa": "2.0.0-beta.59",
-    "@vuepress/plugin-register-components": "2.0.0-beta.59",
+    "@vuepress/plugin-register-components": "2.0.0-beta.64",
     "@vuepress/plugin-search": "2.0.0-beta.59",
     "@vuepress/plugin-shiki": "2.0.0-beta.59",
     "@vuepress/utils": "2.0.0-beta.59",
